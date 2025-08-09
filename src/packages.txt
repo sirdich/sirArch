@@ -18,7 +18,6 @@ btop
 btop-theme-catppuccin
 rocm-smi-lib
 steam
-lutris
 winetricks
 protontricks
 gamemode
@@ -39,3 +38,4 @@ mission-center
 timeshift
 papirus-folders
 papirus-icon-theme
+fastfetch
