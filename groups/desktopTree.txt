@@ -1,0 +1,2829 @@
+plasma-desktop
+├─attica
+│ ├─gcc-libs
+│ │ └─glibc>=2.27
+│ │   ├─linux-api-headers>=4.10
+│ │   ├─tzdata
+│ │   └─filesystem
+│ │     └─iana-etc
+│ ├─glibc
+│ └─qt6-base
+│   ├─brotli
+│   │ └─glibc
+│   ├─dbus
+│   │ ├─audit
+│   │ │ ├─glibc
+│   │ │ ├─krb5
+│   │ │ │ ├─bash
+│   │ │ │ │ ├─readline
+│   │ │ │ │ │ ├─glibc
+│   │ │ │ │ │ ├─ncurses provides libncursesw.so=6-64
+│   │ │ │ │ │ │ ├─glibc
+│   │ │ │ │ │ │ └─gcc-libs
+│   │ │ │ │ │ └─ncurses
+│   │ │ │ │ ├─readline provides libreadline.so=8-64
+│   │ │ │ │ ├─glibc
+│   │ │ │ │ └─ncurses
+│   │ │ │ ├─e2fsprogs
+│   │ │ │ │ ├─bash provides sh
+│   │ │ │ │ └─util-linux-libs
+│   │ │ │ │   ├─glibc
+│   │ │ │ │   └─sqlite
+│   │ │ │ │     ├─readline
+│   │ │ │ │     ├─zlib
+│   │ │ │ │     │ └─glibc
+│   │ │ │ │     └─glibc
+│   │ │ │ ├─glibc
+│   │ │ │ ├─keyutils
+│   │ │ │ │ ├─glibc
+│   │ │ │ │ └─bash provides sh
+│   │ │ │ ├─libldap
+│   │ │ │ │ └─libsasl
+│   │ │ │ │   ├─glibc
+│   │ │ │ │   ├─gdbm
+│   │ │ │ │   │ ├─glibc
+│   │ │ │ │   │ ├─bash provides sh
+│   │ │ │ │   │ ├─readline
+│   │ │ │ │   │ └─readline provides libreadline.so=8-64
+│   │ │ │ │   ├─gdbm provides libgdbm.so=6-64
+│   │ │ │ │   ├─openssl
+│   │ │ │ │   │ └─glibc
+│   │ │ │ │   └─openssl provides libcrypto.so=3-64
+│   │ │ │ ├─libverto provides libverto-module-base
+│   │ │ │ │ ├─glibc
+│   │ │ │ │ └─libevent
+│   │ │ │ │   └─openssl
+│   │ │ │ ├─openssl
+│   │ │ │ ├─lmdb
+│   │ │ │ │ └─glibc
+│   │ │ │ ├─e2fsprogs provides libcom_err.so=2-64
+│   │ │ │ ├─keyutils provides libkeyutils.so=1-64
+│   │ │ │ ├─e2fsprogs provides libss.so=2-64
+│   │ │ │ └─libverto provides libverto.so=1-64
+│   │ │ ├─krb5 provides libkrb5.so=3-64
+│   │ │ ├─krb5 provides libgssapi_krb5.so=2-64
+│   │ │ ├─libcap-ng
+│   │ │ │ └─glibc
+│   │ │ └─libcap-ng provides libcap-ng.so=0-64
+│   │ ├─expat
+│   │ │ └─glibc
+│   │ ├─glibc
+│   │ ├─libcap-ng
+│   │ ├─systemd-libs
+│   │ │ ├─glibc
+│   │ │ ├─gcc-libs
+│   │ │ ├─libcap
+│   │ │ │ ├─glibc
+│   │ │ │ └─pam
+│   │ │ │   ├─audit
+│   │ │ │   ├─glibc
+│   │ │ │   ├─audit provides libaudit.so=1-64
+│   │ │ │   ├─libxcrypt provides libcrypt.so=2-64
+│   │ │ │   │ └─glibc
+│   │ │ │   ├─libnsl
+│   │ │ │   │ ├─glibc
+│   │ │ │   │ └─libtirpc
+│   │ │ │   │   ├─krb5
+│   │ │ │   │   └─glibc
+│   │ │ │   ├─libtirpc
+│   │ │ │   ├─libxcrypt
+│   │ │ │   ├─pambase
+│   │ │ │   └─systemd-libs
+│   │ │ ├─libgcrypt
+│   │ │ │ ├─libgpg-error
+│   │ │ │ │ ├─glibc
+│   │ │ │ │ └─bash provides sh
+│   │ │ │ └─glibc
+│   │ │ ├─lz4
+│   │ │ │ └─glibc
+│   │ │ ├─xz
+│   │ │ │ └─bash provides sh
+│   │ │ └─zstd
+│   │ │   ├─glibc
+│   │ │   ├─gcc-libs
+│   │ │   ├─zlib
+│   │ │   ├─xz
+│   │ │   └─lz4
+│   │ ├─audit provides libaudit.so=1-64
+│   │ ├─libcap-ng provides libcap-ng.so=0-64
+│   │ ├─expat provides libexpat.so=1-64
+│   │ └─systemd-libs provides libsystemd.so=0-64
+│   ├─double-conversion
+│   │ ├─gcc-libs
+│   │ └─glibc
+│   ├─fontconfig
+│   │ ├─bash
+│   │ ├─expat
+│   │ ├─freetype2
+│   │ │ ├─brotli
+│   │ │ ├─bzip2
+│   │ │ │ ├─glibc
+│   │ │ │ └─bash provides sh
+│   │ │ ├─glibc
+│   │ │ ├─libpng
+│   │ │ │ ├─zlib
+│   │ │ │ └─bash provides sh
+│   │ │ ├─zlib
+│   │ │ └─harfbuzz
+│   │ │   ├─freetype2
+│   │ │   ├─glib2
+│   │ │   │ ├─bash
+│   │ │   │ ├─glibc
+│   │ │   │ ├─libffi
+│   │ │   │ │ └─glibc
+│   │ │   │ ├─libsysprof-capture
+│   │ │   │ ├─pcre2
+│   │ │   │ │ ├─bzip2
+│   │ │   │ │ ├─glibc
+│   │ │   │ │ ├─readline
+│   │ │   │ │ └─zlib
+│   │ │   │ ├─util-linux-libs
+│   │ │   │ ├─zlib
+│   │ │   │ ├─libffi provides libffi.so=8-64
+│   │ │   │ └─util-linux-libs provides libmount.so=1-64
+│   │ │   ├─glibc
+│   │ │   ├─graphite
+│   │ │   │ ├─gcc-libs
+│   │ │   │ └─glibc
+│   │ │   ├─freetype2 provides libfreetype.so=6-64
+│   │ │   ├─graphite provides libgraphite2.so=3-64
+│   │ │   ├─glib2 provides libglib-2.0.so=0-64
+│   │ │   └─glib2 provides libgobject-2.0.so=0-64
+│   │ ├─glibc
+│   │ ├─expat provides libexpat.so=1-64
+│   │ └─freetype2 provides libfreetype.so=6-64
+│   ├─freetype2
+│   ├─gcc-libs
+│   ├─glib2
+│   ├─glibc
+│   ├─harfbuzz
+│   ├─icu
+│   │ ├─gcc-libs
+│   │ ├─glibc
+│   │ └─bash provides sh
+│   ├─krb5
+│   ├─libb2
+│   │ ├─gcc-libs
+│   │ └─glibc
+│   ├─libcups
+│   │ ├─gnutls
+│   │ │ ├─glibc
+│   │ │ ├─gcc-libs
+│   │ │ ├─gmp
+│   │ │ │ ├─gcc-libs
+│   │ │ │ └─glibc
+│   │ │ ├─libtasn1
+│   │ │ │ └─glibc
+│   │ │ ├─zlib
+│   │ │ ├─nettle
+│   │ │ │ ├─glibc
+│   │ │ │ └─gmp
+│   │ │ ├─leancrypto
+│   │ │ │ └─glibc
+│   │ │ ├─libp11-kit
+│   │ │ │ ├─glibc
+│   │ │ │ ├─libffi
+│   │ │ │ └─libtasn1
+│   │ │ ├─libidn2
+│   │ │ │ ├─libunistring
+│   │ │ │ │ └─glibc
+│   │ │ │ └─libunistring provides libunistring.so=5-64
+│   │ │ ├─zstd
+│   │ │ ├─libidn2 provides libidn2.so=0-64
+│   │ │ ├─libunistring
+│   │ │ └─brotli
+│   │ ├─avahi
+│   │ │ ├─bash
+│   │ │ ├─dbus
+│   │ │ ├─expat
+│   │ │ ├─gdbm
+│   │ │ ├─glib2
+│   │ │ ├─glibc
+│   │ │ ├─libcap
+│   │ │ ├─libdaemon
+│   │ │ │ └─glibc
+│   │ │ ├─systemd-libs
+│   │ │ └─dbus provides libdbus-1.so=3-64
+│   │ ├─glibc
+│   │ ├─zlib
+│   │ └─bash provides sh
+│   ├─libdrm
+│   │ ├─libpciaccess
+│   │ │ ├─glibc
+│   │ │ └─zlib
+│   │ └─glibc
+│   ├─libglvnd provides libgl
+│   │ ├─libxext
+│   │ │ ├─libx11
+│   │ │ │ ├─libxcb
+│   │ │ │ │ ├─xcb-proto
+│   │ │ │ │ ├─libxdmcp
+│   │ │ │ │ │ ├─glibc
+│   │ │ │ │ │ └─xorgproto
+│   │ │ │ │ ├─libxau
+│   │ │ │ │ │ ├─glibc
+│   │ │ │ │ │ └─xorgproto
+│   │ │ │ │ └─glibc
+│   │ │ │ ├─glibc
+│   │ │ │ └─xorgproto
+│   │ │ ├─glibc
+│   │ │ └─xorgproto
+│   │ ├─mesa
+│   │ │ ├─expat
+│   │ │ ├─gcc-libs
+│   │ │ ├─glibc
+│   │ │ ├─libdrm
+│   │ │ ├─libelf
+│   │ │ │ ├─bzip2
+│   │ │ │ ├─bzip2 provides libbz2.so=1.0-64
+│   │ │ │ ├─curl
+│   │ │ │ │ ├─ca-certificates
+│   │ │ │ │ │ └─ca-certificates-mozilla
+│   │ │ │ │ │   └─ca-certificates-utils>=20181109-3
+│   │ │ │ │ │     ├─bash
+│   │ │ │ │ │     ├─coreutils
+│   │ │ │ │ │     │ ├─acl
+│   │ │ │ │ │     │ │ └─glibc
+│   │ │ │ │ │     │ ├─attr
+│   │ │ │ │ │     │ │ └─glibc
+│   │ │ │ │ │     │ ├─glibc
+│   │ │ │ │ │     │ ├─gmp
+│   │ │ │ │ │     │ ├─libcap
+│   │ │ │ │ │     │ └─openssl
+│   │ │ │ │ │     ├─findutils
+│   │ │ │ │ │     │ └─glibc
+│   │ │ │ │ │     └─p11-kit
+│   │ │ │ │ │       ├─coreutils
+│   │ │ │ │ │       ├─glibc
+│   │ │ │ │ │       ├─libtasn1
+│   │ │ │ │ │       ├─systemd-libs
+│   │ │ │ │ │       ├─libp11-kit=0.25.5-1
+│   │ │ │ │ │       ├─libp11-kit provides libp11-kit.so=0-64
+│   │ │ │ │ │       └─systemd-libs provides libsystemd.so=0-64
+│   │ │ │ │ ├─brotli
+│   │ │ │ │ ├─brotli provides libbrotlidec.so=1-64
+│   │ │ │ │ ├─krb5
+│   │ │ │ │ ├─krb5 provides libgssapi_krb5.so=2-64
+│   │ │ │ │ ├─libidn2
+│   │ │ │ │ ├─libidn2 provides libidn2.so=0-64
+│   │ │ │ │ ├─libnghttp2
+│   │ │ │ │ │ └─glibc
+│   │ │ │ │ ├─libnghttp2 provides libnghttp2.so=14-64
+│   │ │ │ │ ├─libnghttp3
+│   │ │ │ │ │ └─glibc
+│   │ │ │ │ ├─libnghttp3 provides libnghttp3.so=9-64
+│   │ │ │ │ ├─libpsl
+│   │ │ │ │ │ ├─libidn2
+│   │ │ │ │ │ ├─libunistring
+│   │ │ │ │ │ ├─libidn2 provides libidn2.so=0-64
+│   │ │ │ │ │ └─libunistring provides libunistring.so=5-64
+│   │ │ │ │ ├─libpsl provides libpsl.so=5-64
+│   │ │ │ │ ├─libssh2
+│   │ │ │ │ │ ├─openssl
+│   │ │ │ │ │ └─zlib
+│   │ │ │ │ ├─libssh2 provides libssh2.so=1-64
+│   │ │ │ │ ├─zlib
+│   │ │ │ │ ├─zlib provides libz.so=1-64
+│   │ │ │ │ ├─zstd
+│   │ │ │ │ ├─zstd provides libzstd.so=1-64
+│   │ │ │ │ ├─openssl
+│   │ │ │ │ ├─openssl provides libcrypto.so=3-64
+│   │ │ │ │ └─openssl provides libssl.so=3-64
+│   │ │ │ ├─curl provides libcurl.so=4-64
+│   │ │ │ ├─glibc
+│   │ │ │ ├─json-c
+│   │ │ │ │ └─glibc
+│   │ │ │ ├─xz
+│   │ │ │ ├─xz provides liblzma.so=5-64
+│   │ │ │ ├─zlib
+│   │ │ │ ├─zstd
+│   │ │ │ └─zstd provides libzstd.so=1-64
+│   │ │ ├─libglvnd
+│   │ │ ├─libx11
+│   │ │ ├─libxcb
+│   │ │ ├─libxext
+│   │ │ ├─libxshmfence
+│   │ │ │ └─glibc
+│   │ │ ├─libxxf86vm
+│   │ │ │ ├─libxext
+│   │ │ │ ├─libx11
+│   │ │ │ ├─glibc
+│   │ │ │ └─xorgproto
+│   │ │ ├─llvm-libs
+│   │ │ │ ├─gcc-libs
+│   │ │ │ ├─zlib
+│   │ │ │ ├─zstd
+│   │ │ │ ├─libffi
+│   │ │ │ ├─libedit
+│   │ │ │ │ ├─glibc
+│   │ │ │ │ ├─ncurses provides libncursesw.so=6-64
+│   │ │ │ │ └─ncurses
+│   │ │ │ └─libxml2
+│   │ │ │   ├─bash
+│   │ │ │   ├─glibc
+│   │ │ │   ├─icu
+│   │ │ │   ├─readline
+│   │ │ │   ├─xz
+│   │ │ │   └─zlib
+│   │ │ ├─lm_sensors
+│   │ │ │ ├─bash
+│   │ │ │ └─glibc
+│   │ │ ├─spirv-tools
+│   │ │ │ ├─gcc-libs
+│   │ │ │ ├─glibc
+│   │ │ │ └─bash provides sh
+│   │ │ ├─wayland
+│   │ │ │ ├─glibc
+│   │ │ │ ├─libffi
+│   │ │ │ ├─expat
+│   │ │ │ ├─libxml2
+│   │ │ │ └─default-cursors
+│   │ │ ├─zlib
+│   │ │ └─zstd
+│   │ └─mesa provides opengl-driver
+│   ├─libice
+│   │ ├─glibc
+│   │ └─xorgproto
+│   ├─libinput
+│   │ ├─mtdev
+│   │ │ └─glibc
+│   │ ├─libevdev
+│   │ │ └─glibc
+│   │ ├─libwacom
+│   │ │ ├─glib2
+│   │ │ ├─libevdev
+│   │ │ ├─libgudev
+│   │ │ │ ├─gcc-libs
+│   │ │ │ ├─glib2
+│   │ │ │ ├─glibc
+│   │ │ │ ├─systemd-libs provides libsystemd
+│   │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│   │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│   │ │ │ └─systemd-libs provides libudev.so=1-64
+│   │ │ └─glibc
+│   │ ├─systemd-libs
+│   │ └─glibc
+│   ├─libjpeg-turbo
+│   │ └─glibc
+│   ├─libpng
+│   ├─libproxy
+│   │ ├─curl
+│   │ ├─duktape
+│   │ │ └─glibc
+│   │ ├─gcc-libs
+│   │ ├─glib2
+│   │ └─glibc
+│   ├─libsm
+│   │ ├─libice
+│   │ ├─util-linux-libs
+│   │ ├─xorgproto
+│   │ └─glibc
+│   ├─libx11
+│   ├─libxcb
+│   ├─libxkbcommon
+│   │ ├─glibc
+│   │ ├─libxml2
+│   │ └─xkeyboard-config
+│   ├─libxkbcommon-x11
+│   │ ├─glibc
+│   │ ├─libxcb
+│   │ ├─libxkbcommon
+│   │ └─libxkbcommon provides libxkbcommon.so=0-64
+│   ├─md4c
+│   │ └─glibc
+│   ├─mesa
+│   ├─mtdev
+│   ├─openssl
+│   ├─pcre2
+│   ├─shared-mime-info
+│   │ ├─libxml2
+│   │ ├─glib2
+│   │ ├─glibc
+│   │ └─gcc-libs
+│   ├─sqlite
+│   ├─systemd-libs
+│   ├─tslib
+│   │ └─glibc
+│   ├─xcb-util-cursor
+│   │ ├─libxcb
+│   │ ├─xcb-util-renderutil
+│   │ │ ├─libxcb
+│   │ │ └─glibc
+│   │ ├─xcb-util-image
+│   │ │ ├─libxcb
+│   │ │ ├─xcb-util
+│   │ │ │ ├─libxcb
+│   │ │ │ └─glibc
+│   │ │ └─glibc
+│   │ └─glibc
+│   ├─xcb-util-image
+│   ├─xcb-util-keysyms
+│   │ ├─libxcb
+│   │ └─glibc
+│   ├─xcb-util-renderutil
+│   ├─xcb-util-wm
+│   │ ├─libxcb
+│   │ └─glibc
+│   ├─xdg-utils
+│   │ ├─bash provides sh
+│   │ ├─file
+│   │ │ ├─glibc
+│   │ │ ├─bzip2
+│   │ │ ├─bzip2 provides libbz2.so=1.0-64
+│   │ │ ├─libseccomp
+│   │ │ │ └─glibc
+│   │ │ ├─libseccomp provides libseccomp.so=2-64
+│   │ │ ├─xz
+│   │ │ ├─xz provides liblzma.so=5-64
+│   │ │ ├─zlib
+│   │ │ ├─zlib provides libz.so=1-64
+│   │ │ ├─zstd
+│   │ │ └─zstd provides libzstd.so=1-64
+│   │ ├─xorg-xset
+│   │ │ └─libxmu
+│   │ │   ├─libxext
+│   │ │   ├─libxt
+│   │ │   │ ├─libsm
+│   │ │   │ ├─libx11
+│   │ │   │ ├─libice
+│   │ │   │ ├─glibc
+│   │ │   │ └─xorgproto
+│   │ │   ├─libx11
+│   │ │   ├─xorgproto
+│   │ │   └─glibc
+│   │ └─xorg-xprop
+│   │   ├─libx11
+│   │   └─glibc
+│   ├─zlib
+│   ├─zstd
+│   └─qt6-translations
+├─baloo
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ └─qt6-declarative
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   └─qt6-base
+│ ├─kcoreaddons
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ └─systemd-libs
+│ ├─kcrash
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kcoreaddons
+│ │ ├─libx11
+│ │ └─qt6-base
+│ ├─kdbusaddons
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─kfilemetadata
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─ebook-tools
+│ │ │ ├─convertlit
+│ │ │ │ ├─glibc
+│ │ │ │ └─libtommath
+│ │ │ │   └─glibc
+│ │ │ ├─glibc
+│ │ │ ├─libxml2
+│ │ │ ├─libzip
+│ │ │ │ ├─zlib
+│ │ │ │ ├─bzip2
+│ │ │ │ ├─zstd
+│ │ │ │ ├─openssl
+│ │ │ │ └─gnutls
+│ │ │ └─bash provides sh
+│ │ ├─exiv2
+│ │ │ ├─brotli
+│ │ │ ├─brotli provides libbrotlidec.so=1-64
+│ │ │ ├─curl
+│ │ │ ├─expat
+│ │ │ ├─expat provides libexpat.so=1-64
+│ │ │ ├─gcc-libs
+│ │ │ ├─gettext
+│ │ │ │ ├─acl
+│ │ │ │ ├─attr
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─gnulib-l10n
+│ │ │ │ ├─libunistring
+│ │ │ │ ├─libxml2
+│ │ │ │ ├─ncurses
+│ │ │ │ └─bash provides sh
+│ │ │ ├─glibc
+│ │ │ ├─curl provides libcurl.so=4-64
+│ │ │ ├─libinih
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─libinih provides libINIReader.so=0-64
+│ │ │ ├─zlib
+│ │ │ └─zlib provides libz.so=1-64
+│ │ ├─ffmpeg
+│ │ │ ├─alsa-lib
+│ │ │ │ ├─alsa-topology-conf
+│ │ │ │ ├─alsa-ucm-conf
+│ │ │ │ └─glibc
+│ │ │ ├─aom
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─bzip2
+│ │ │ ├─cairo
+│ │ │ │ ├─bash
+│ │ │ │ ├─fontconfig
+│ │ │ │ ├─freetype2
+│ │ │ │ ├─glib2
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libpng
+│ │ │ │ ├─libx11
+│ │ │ │ ├─libxcb
+│ │ │ │ ├─libxext
+│ │ │ │ ├─libxrender
+│ │ │ │ │ ├─libx11
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ └─xorgproto
+│ │ │ │ ├─lzo
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─pixman
+│ │ │ │ │ └─glibc
+│ │ │ │ └─zlib
+│ │ │ ├─dav1d
+│ │ │ │ └─glibc
+│ │ │ ├─fontconfig
+│ │ │ ├─freetype2
+│ │ │ ├─fribidi
+│ │ │ │ └─glibc
+│ │ │ ├─glib2
+│ │ │ ├─glibc
+│ │ │ ├─glslang
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─spirv-tools
+│ │ │ ├─gmp
+│ │ │ ├─gnutls
+│ │ │ ├─gsm
+│ │ │ │ └─glibc
+│ │ │ ├─harfbuzz
+│ │ │ ├─pipewire-jack provides jack
+│ │ │ │ ├─libpipewire=1:1.4.7-1
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ └─gcc-libs
+│ │ │ │ ├─libpipewire provides libpipewire-0.3.so=0-64
+│ │ │ │ ├─pipewire-audio=1:1.4.7-1
+│ │ │ │ │ ├─libpipewire=1:1.4.7-1
+│ │ │ │ │ ├─libpipewire provides libpipewire-0.3.so=0-64
+│ │ │ │ │ ├─pipewire=1:1.4.7-1
+│ │ │ │ │ │ ├─libpipewire=1:1.4.7-1
+│ │ │ │ │ │ ├─libpipewire provides libpipewire-0.3.so=0-64
+│ │ │ │ │ │ ├─dbus
+│ │ │ │ │ │ ├─dbus provides libdbus-1.so=3-64
+│ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ ├─glib2
+│ │ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─ncurses
+│ │ │ │ │ │ ├─ncurses provides libncursesw.so=6-64
+│ │ │ │ │ │ ├─readline
+│ │ │ │ │ │ ├─readline provides libreadline.so=8-64
+│ │ │ │ │ │ ├─systemd-libs
+│ │ │ │ │ │ ├─systemd-libs provides libsystemd.so=0-64
+│ │ │ │ │ │ └─systemd-libs provides libudev.so=1-64
+│ │ │ │ │ ├─alsa-card-profiles
+│ │ │ │ │ ├─alsa-lib
+│ │ │ │ │ ├─alsa-lib provides libasound.so=2-64
+│ │ │ │ │ ├─bluez-libs
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─bluez-libs provides libbluetooth.so=3-64
+│ │ │ │ │ ├─dbus
+│ │ │ │ │ ├─dbus provides libdbus-1.so=3-64
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libebur128
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─libfdk-aac
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─libfdk-aac provides libfdk-aac.so=2-64
+│ │ │ │ │ ├─libfreeaptx
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─libfreeaptx provides libfreeaptx.so=0-64
+│ │ │ │ │ ├─liblc3
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─liblc3 provides liblc3.so=1-64
+│ │ │ │ │ ├─libldac
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─libldac provides libldacBT_enc.so=2-64
+│ │ │ │ │ ├─libmysofa
+│ │ │ │ │ │ └─zlib
+│ │ │ │ │ ├─libmysofa provides libmysofa.so=1-64
+│ │ │ │ │ ├─libsndfile
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─flac
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ │ └─libogg
+│ │ │ │ │ │ │   └─glibc
+│ │ │ │ │ │ ├─flac provides libFLAC.so=14-64
+│ │ │ │ │ │ ├─lame
+│ │ │ │ │ │ │ └─ncurses
+│ │ │ │ │ │ ├─lame provides libmp3lame.so=0-64
+│ │ │ │ │ │ ├─libogg
+│ │ │ │ │ │ ├─libogg provides libogg.so=0-64
+│ │ │ │ │ │ ├─libvorbis
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ ├─libogg
+│ │ │ │ │ │ │ └─libogg provides libogg.so=0-64
+│ │ │ │ │ │ ├─libvorbis provides libvorbis.so=0-64
+│ │ │ │ │ │ ├─libvorbis provides libvorbisenc.so=2-64
+│ │ │ │ │ │ ├─mpg123
+│ │ │ │ │ │ │ └─alsa-lib
+│ │ │ │ │ │ ├─mpg123 provides libmpg123.so=0-64
+│ │ │ │ │ │ ├─opus
+│ │ │ │ │ │ │ └─glibc
+│ │ │ │ │ │ └─opus provides libopus.so=0-64
+│ │ │ │ │ ├─libsndfile provides libsndfile.so=1-64
+│ │ │ │ │ ├─libusb
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─systemd-libs
+│ │ │ │ │ │ └─systemd-libs provides libudev.so=1-64
+│ │ │ │ │ ├─libusb provides libusb-1.0.so=0-64
+│ │ │ │ │ ├─lilv
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─serd
+│ │ │ │ │ │ │ └─glibc
+│ │ │ │ │ │ ├─serd provides libserd-0.so=0-64
+│ │ │ │ │ │ ├─sord
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ ├─pcre2
+│ │ │ │ │ │ │ ├─serd
+│ │ │ │ │ │ │ ├─serd provides libserd-0.so=0-64
+│ │ │ │ │ │ │ ├─zix
+│ │ │ │ │ │ │ │ └─glibc
+│ │ │ │ │ │ │ └─zix provides libzix-0.so=0-64
+│ │ │ │ │ │ ├─sord provides libsord-0.so=0-64
+│ │ │ │ │ │ ├─sratom
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ ├─serd
+│ │ │ │ │ │ │ ├─serd provides libserd-0.so=0-64
+│ │ │ │ │ │ │ ├─sord
+│ │ │ │ │ │ │ ├─sord provides libsord-0.so=0-64
+│ │ │ │ │ │ │ └─lv2
+│ │ │ │ │ │ ├─sratom provides libsratom-0.so=0-64
+│ │ │ │ │ │ ├─lv2
+│ │ │ │ │ │ └─zix
+│ │ │ │ │ ├─lilv provides liblilv-0.so=0-64
+│ │ │ │ │ ├─opus
+│ │ │ │ │ ├─opus provides libopus.so=0-64
+│ │ │ │ │ ├─sbc
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─sbc provides libsbc.so=1-64
+│ │ │ │ │ ├─systemd-libs
+│ │ │ │ │ ├─webrtc-audio-processing-1
+│ │ │ │ │ │ ├─abseil-cpp
+│ │ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ └─gtest
+│ │ │ │ │ │ │   ├─gcc-libs
+│ │ │ │ │ │ │   └─glibc
+│ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ └─webrtc-audio-processing-1 provides libwebrtc-audio-processing-1.so=3-64
+│ │ │ │ ├─pipewire=1:1.4.7-1
+│ │ │ │ ├─glibc
+│ │ │ │ ├─wireplumber provides pipewire-session-manager
+│ │ │ │ │ ├─libwireplumber=0.5.10-1
+│ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ │ ├─glib2 provides libgmodule-2.0.so=0-64
+│ │ │ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ │ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ │ │ │ │ └─libpipewire provides libpipewire-0.3.so=0-64
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ │ │ │ ├─libpipewire
+│ │ │ │ │ ├─libpipewire provides libpipewire-0.3.so=0-64
+│ │ │ │ │ ├─systemd-libs provides libsystemd.so=0-64
+│ │ │ │ │ ├─lua
+│ │ │ │ │ │ └─readline
+│ │ │ │ │ ├─pipewire
+│ │ │ │ │ └─systemd-libs
+│ │ │ │ └─bash provides sh
+│ │ │ ├─lame
+│ │ │ ├─libass
+│ │ │ │ ├─fontconfig
+│ │ │ │ ├─fribidi
+│ │ │ │ ├─glibc
+│ │ │ │ ├─harfbuzz
+│ │ │ │ ├─freetype2 provides libfreetype.so=6-64
+│ │ │ │ └─libunibreak
+│ │ │ │   └─glibc
+│ │ │ ├─libavc1394
+│ │ │ │ ├─glibc
+│ │ │ │ └─libraw1394
+│ │ │ │   └─glibc
+│ │ │ ├─libbluray
+│ │ │ │ ├─fontconfig
+│ │ │ │ ├─glibc
+│ │ │ │ ├─freetype2 provides libfreetype.so=6-64
+│ │ │ │ └─libxml2
+│ │ │ ├─libbs2b
+│ │ │ │ ├─libsndfile
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─libsndfile provides libsndfile.so=1-64
+│ │ │ ├─libdrm
+│ │ │ ├─libdvdnav
+│ │ │ │ ├─glibc
+│ │ │ │ └─libdvdread
+│ │ │ │   └─glibc
+│ │ │ ├─libdvdread
+│ │ │ ├─libglvnd provides libgl
+│ │ │ ├─libiec61883
+│ │ │ │ └─libraw1394
+│ │ │ ├─libjxl
+│ │ │ │ ├─brotli
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─giflib
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─glibc
+│ │ │ │ ├─gperftools
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ └─libunwind
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   ├─xz
+│ │ │ │ │   └─zlib
+│ │ │ │ ├─highway
+│ │ │ │ │ └─gcc-libs
+│ │ │ │ ├─libjpeg-turbo
+│ │ │ │ └─libpng
+│ │ │ ├─libmodplug
+│ │ │ │ └─gcc-libs
+│ │ │ ├─libopenmpt
+│ │ │ │ ├─flac
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libogg
+│ │ │ │ ├─libpulse
+│ │ │ │ │ ├─bash
+│ │ │ │ │ ├─dbus
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libasyncns
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─libsndfile
+│ │ │ │ │ ├─libxcb
+│ │ │ │ │ └─systemd-libs
+│ │ │ │ ├─libsndfile
+│ │ │ │ ├─libvorbis
+│ │ │ │ ├─mpg123
+│ │ │ │ ├─portaudio
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─alsa-lib
+│ │ │ │ │ ├─alsa-lib provides libasound.so=2-64
+│ │ │ │ │ ├─pipewire-jack provides jack
+│ │ │ │ │ └─pipewire-jack provides libjack.so=0-64
+│ │ │ │ └─zlib
+│ │ │ ├─libplacebo
+│ │ │ │ ├─vulkan-icd-loader
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─glslang
+│ │ │ │ ├─lcms2
+│ │ │ │ │ └─libtiff
+│ │ │ │ │   ├─gcc-libs
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   ├─jbigkit
+│ │ │ │ │   │ └─glibc
+│ │ │ │ │   ├─libjpeg-turbo
+│ │ │ │ │   ├─libjpeg-turbo provides libjpeg.so=8-64
+│ │ │ │ │   ├─zlib
+│ │ │ │ │   ├─xz
+│ │ │ │ │   └─zstd
+│ │ │ │ ├─shaderc
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glslang
+│ │ │ │ │ └─spirv-tools
+│ │ │ │ ├─glibc
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─libunwind
+│ │ │ │ ├─libdovi
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─xxhash
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─libdovi provides libdovi.so=3-64
+│ │ │ │ ├─lcms2 provides liblcms2.so=2-64
+│ │ │ │ ├─shaderc provides libshaderc_shared.so=1-64
+│ │ │ │ └─vulkan-icd-loader provides libvulkan.so=1-64
+│ │ │ ├─libpulse
+│ │ │ ├─libraw1394
+│ │ │ ├─librsvg
+│ │ │ │ ├─cairo
+│ │ │ │ ├─dav1d
+│ │ │ │ ├─freetype2
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─gdk-pixbuf2
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libjpeg-turbo
+│ │ │ │ │ ├─libpng
+│ │ │ │ │ ├─libtiff
+│ │ │ │ │ └─shared-mime-info
+│ │ │ │ ├─glib2
+│ │ │ │ ├─glibc
+│ │ │ │ ├─harfbuzz
+│ │ │ │ ├─libxml2
+│ │ │ │ └─pango
+│ │ │ │   ├─cairo
+│ │ │ │   ├─fontconfig
+│ │ │ │   ├─freetype2
+│ │ │ │   ├─fribidi
+│ │ │ │   ├─glib2
+│ │ │ │   ├─glibc
+│ │ │ │   ├─harfbuzz
+│ │ │ │   ├─libsysprof-capture
+│ │ │ │   ├─libthai
+│ │ │ │   │ ├─glibc
+│ │ │ │   │ └─libdatrie
+│ │ │ │   │   └─glibc
+│ │ │ │   ├─libx11
+│ │ │ │   ├─libxft
+│ │ │ │   │ ├─fontconfig
+│ │ │ │   │ ├─libxrender
+│ │ │ │   │ ├─libx11
+│ │ │ │   │ ├─freetype2
+│ │ │ │   │ ├─glibc
+│ │ │ │   │ └─xorgproto
+│ │ │ │   └─libxrender
+│ │ │ ├─libsoxr
+│ │ │ │ └─gcc-libs
+│ │ │ ├─libssh
+│ │ │ │ ├─glibc
+│ │ │ │ ├─openssl
+│ │ │ │ └─zlib
+│ │ │ ├─libtheora
+│ │ │ │ ├─glibc
+│ │ │ │ └─libogg
+│ │ │ ├─libva
+│ │ │ │ ├─libdrm
+│ │ │ │ ├─libglvnd provides libgl
+│ │ │ │ ├─libx11
+│ │ │ │ ├─libxext
+│ │ │ │ ├─libxfixes
+│ │ │ │ │ ├─libx11
+│ │ │ │ │ ├─xorgproto
+│ │ │ │ │ └─glibc
+│ │ │ │ └─wayland
+│ │ │ ├─libvdpau
+│ │ │ │ └─libxext
+│ │ │ ├─libvorbis
+│ │ │ ├─libvpx
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─libwebp
+│ │ │ │ ├─giflib
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libjpeg-turbo
+│ │ │ │ ├─libpng
+│ │ │ │ └─libtiff
+│ │ │ ├─libx11
+│ │ │ ├─libxcb
+│ │ │ ├─libxext
+│ │ │ ├─libxml2
+│ │ │ ├─libxv
+│ │ │ │ ├─libxext
+│ │ │ │ ├─libx11
+│ │ │ │ ├─glibc
+│ │ │ │ └─xorgproto
+│ │ │ ├─ocl-icd
+│ │ │ │ └─glibc
+│ │ │ ├─libvpl provides onevpl
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─opencore-amr
+│ │ │ │ └─glibc
+│ │ │ ├─openjpeg2
+│ │ │ │ ├─libpng
+│ │ │ │ ├─libtiff
+│ │ │ │ ├─lcms2
+│ │ │ │ └─glibc
+│ │ │ ├─opus
+│ │ │ ├─rav1e
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─rubberband
+│ │ │ │ ├─fftw
+│ │ │ │ │ ├─bash
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─fftw provides libfftw3.so=3-64
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libsamplerate
+│ │ │ │ │ └─glibc
+│ │ │ │ ├─libsamplerate provides libsamplerate.so=0-64
+│ │ │ │ ├─libsndfile
+│ │ │ │ └─libsndfile provides libsndfile.so=1-64
+│ │ │ ├─sdl2-compat provides sdl2
+│ │ │ │ ├─sdl3
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libxext
+│ │ │ │ │ ├─libxrender
+│ │ │ │ │ ├─libx11
+│ │ │ │ │ ├─libglvnd provides libgl
+│ │ │ │ │ ├─libxcursor
+│ │ │ │ │ │ ├─libxfixes
+│ │ │ │ │ │ ├─libxrender
+│ │ │ │ │ │ ├─default-cursors
+│ │ │ │ │ │ ├─libx11
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ └─xorgproto
+│ │ │ │ │ ├─hidapi
+│ │ │ │ │ │ └─systemd-libs
+│ │ │ │ │ └─libusb
+│ │ │ │ └─glibc
+│ │ │ ├─snappy
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─speex
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─libogg
+│ │ │ │ ├─speexdsp
+│ │ │ │ │ └─gcc-libs
+│ │ │ │ ├─libogg provides libogg.so=0-64
+│ │ │ │ └─speexdsp provides libspeexdsp.so=1-64
+│ │ │ ├─srt
+│ │ │ │ ├─bash
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ └─openssl
+│ │ │ ├─svt-av1
+│ │ │ │ └─glibc
+│ │ │ ├─v4l-utils
+│ │ │ │ ├─hicolor-icon-theme
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─libbpf
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libelf
+│ │ │ │ │ ├─linux-api-headers
+│ │ │ │ │ └─zlib
+│ │ │ │ ├─libjpeg-turbo
+│ │ │ │ ├─systemd-libs
+│ │ │ │ └─json-c
+│ │ │ ├─vapoursynth
+│ │ │ │ ├─zimg provides libzimg.so=2-64
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ └─glibc
+│ │ │ │ └─python
+│ │ │ │   ├─bzip2
+│ │ │ │   ├─expat
+│ │ │ │   ├─gdbm
+│ │ │ │   ├─libffi
+│ │ │ │   ├─libnsl
+│ │ │ │   ├─libxcrypt
+│ │ │ │   ├─openssl
+│ │ │ │   ├─zlib
+│ │ │ │   ├─tzdata
+│ │ │ │   └─mpdecimal
+│ │ │ │     ├─glibc
+│ │ │ │     └─gcc-libs
+│ │ │ ├─vid.stab
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─vmaf
+│ │ │ │ └─gcc-libs
+│ │ │ ├─vulkan-icd-loader
+│ │ │ ├─x264
+│ │ │ │ ├─glibc
+│ │ │ │ └─l-smash provides liblsmash.so=2-64
+│ │ │ │   └─glibc
+│ │ │ ├─x265
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─glibc
+│ │ │ ├─xvidcore
+│ │ │ │ └─glibc
+│ │ │ ├─xz
+│ │ │ ├─zeromq
+│ │ │ │ ├─glibc
+│ │ │ │ ├─gnutls
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─util-linux
+│ │ │ │ │ ├─util-linux-libs=2.41.1
+│ │ │ │ │ ├─coreutils
+│ │ │ │ │ ├─file
+│ │ │ │ │ ├─file provides libmagic.so=1-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libcap-ng
+│ │ │ │ │ ├─libxcrypt
+│ │ │ │ │ ├─libxcrypt provides libcrypt.so=2-64
+│ │ │ │ │ ├─ncurses
+│ │ │ │ │ ├─ncurses provides libncursesw.so=6-64
+│ │ │ │ │ ├─pam
+│ │ │ │ │ ├─readline
+│ │ │ │ │ ├─shadow
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─acl
+│ │ │ │ │ │ ├─acl provides libacl.so=1-64
+│ │ │ │ │ │ ├─attr
+│ │ │ │ │ │ ├─attr provides libattr.so
+│ │ │ │ │ │ ├─audit
+│ │ │ │ │ │ ├─audit provides libaudit.so=1-64
+│ │ │ │ │ │ ├─libxcrypt
+│ │ │ │ │ │ ├─libxcrypt provides libcrypt.so=2-64
+│ │ │ │ │ │ ├─pam
+│ │ │ │ │ │ ├─pam provides libpam.so=0-64
+│ │ │ │ │ │ └─pam provides libpam_misc.so=0-64
+│ │ │ │ │ ├─systemd-libs
+│ │ │ │ │ ├─systemd-libs provides libsystemd.so=0-64
+│ │ │ │ │ ├─systemd-libs provides libudev.so=1-64
+│ │ │ │ │ └─zlib
+│ │ │ │ ├─libsodium
+│ │ │ │ │ └─glibc
+│ │ │ │ └─libpgm
+│ │ │ │   └─glibc
+│ │ │ ├─zimg
+│ │ │ ├─zlib
+│ │ │ ├─libass provides libass.so=9-64
+│ │ │ ├─libbluray provides libbluray.so=2-64
+│ │ │ ├─libbs2b provides libbs2b.so=0-64
+│ │ │ ├─dav1d provides libdav1d.so=7-64
+│ │ │ ├─freetype2 provides libfreetype.so=6-64
+│ │ │ ├─harfbuzz provides libharfbuzz.so=0-64
+│ │ │ ├─libjxl provides libjxl.so=0.11-64
+│ │ │ ├─libopenmpt provides libopenmpt.so=0-64
+│ │ │ ├─libplacebo provides libplacebo.so=351-64
+│ │ │ ├─rav1e provides librav1e.so=0.7-64
+│ │ │ ├─librsvg provides librsvg-2.so=2-64
+│ │ │ ├─rubberband provides librubberband.so=3-64
+│ │ │ ├─libva provides libva.so=2-64
+│ │ │ ├─libva provides libva-drm.so=2-64
+│ │ │ ├─libva provides libva-x11.so=2-64
+│ │ │ ├─vid.stab provides libvidstab.so=1.2-64
+│ │ │ ├─libvorbis provides libvorbisenc.so=2-64
+│ │ │ ├─libvorbis provides libvorbis.so=0-64
+│ │ │ ├─libvpx provides libvpx.so=9-64
+│ │ │ ├─x264 provides libx264.so=164-64
+│ │ │ ├─x265 provides libx265.so=215-64
+│ │ │ ├─xvidcore provides libxvidcore.so=4-64
+│ │ │ ├─zimg provides libzimg.so=2-64
+│ │ │ └─zeromq provides libzmq.so=5-64
+│ │ ├─karchive
+│ │ │ ├─bzip2
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─openssl
+│ │ │ ├─qt6-base
+│ │ │ ├─xz
+│ │ │ ├─zlib
+│ │ │ └─zstd
+│ │ ├─kcodecs
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─ki18n
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─iso-codes
+│ │ │ └─qt6-base
+│ │ ├─poppler-qt6
+│ │ │ ├─poppler=25.07.0
+│ │ │ │ ├─libjpeg-turbo
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─cairo
+│ │ │ │ ├─fontconfig
+│ │ │ │ ├─openjpeg2
+│ │ │ │ ├─lcms2
+│ │ │ │ ├─nss
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─nspr
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ └─bash provides sh
+│ │ │ │ │ ├─p11-kit
+│ │ │ │ │ ├─bash provides sh
+│ │ │ │ │ ├─sqlite
+│ │ │ │ │ └─zlib
+│ │ │ │ ├─curl
+│ │ │ │ ├─gpgmepp
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─gpgme
+│ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ ├─glib2
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─libassuan
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ ├─libgpg-error
+│ │ │ │ │ │ │ └─bash provides sh
+│ │ │ │ │ │ ├─libgpg-error
+│ │ │ │ │ │ └─gnupg>=2
+│ │ │ │ │ │   ├─glibc
+│ │ │ │ │ │   ├─gnutls
+│ │ │ │ │ │   ├─libgcrypt
+│ │ │ │ │ │   ├─libgpg-error
+│ │ │ │ │ │   ├─libksba
+│ │ │ │ │ │   │ ├─bash
+│ │ │ │ │ │   │ ├─libgpg-error
+│ │ │ │ │ │   │ └─glibc
+│ │ │ │ │ │   ├─libldap
+│ │ │ │ │ │   ├─libusb
+│ │ │ │ │ │   ├─pinentry
+│ │ │ │ │ │   │ ├─glibc
+│ │ │ │ │ │   │ ├─ncurses
+│ │ │ │ │ │   │ ├─libassuan
+│ │ │ │ │ │   │ ├─libsecret
+│ │ │ │ │ │   │ │ ├─glib2
+│ │ │ │ │ │   │ │ ├─glibc
+│ │ │ │ │ │   │ │ ├─libgcrypt
+│ │ │ │ │ │   │ │ └─tpm2-tss
+│ │ │ │ │ │   │ │   ├─curl
+│ │ │ │ │ │   │ │   ├─json-c
+│ │ │ │ │ │   │ │   ├─openssl
+│ │ │ │ │ │   │ │   └─json-c provides libjson-c.so=5-64
+│ │ │ │ │ │   │ ├─glib2
+│ │ │ │ │ │   │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ │   │ ├─ncurses provides libncursesw.so=6-64
+│ │ │ │ │ │   │ └─libsecret provides libsecret-1.so=0-64
+│ │ │ │ │ │   ├─bash provides sh
+│ │ │ │ │ │   ├─sqlite
+│ │ │ │ │ │   ├─tpm2-tss
+│ │ │ │ │ │   ├─zlib
+│ │ │ │ │ │   ├─bzip2
+│ │ │ │ │ │   ├─bzip2 provides libbz2.so=1.0-64
+│ │ │ │ │ │   ├─libassuan
+│ │ │ │ │ │   ├─libassuan provides libassuan.so=9-64
+│ │ │ │ │ │   ├─npth
+│ │ │ │ │ │   │ ├─glibc
+│ │ │ │ │ │   │ └─bash provides sh
+│ │ │ │ │ │   ├─npth provides libnpth.so=0-64
+│ │ │ │ │ │   ├─readline
+│ │ │ │ │ │   └─readline provides libreadline.so=8-64
+│ │ │ │ │ └─libgpg-error
+│ │ │ │ ├─nspr
+│ │ │ │ ├─libpng
+│ │ │ │ ├─freetype2
+│ │ │ │ ├─zlib
+│ │ │ │ ├─libtiff
+│ │ │ │ └─glibc
+│ │ │ ├─qt6-base
+│ │ │ ├─lcms2
+│ │ │ ├─freetype2
+│ │ │ ├─gcc-libs
+│ │ │ └─glibc
+│ │ ├─qt6-base
+│ │ └─taglib
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   ├─bash provides sh
+│ │   └─zlib
+│ ├─ki18n
+│ ├─kidletime
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─kio
+│ │ ├─acl
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─karchive
+│ │ ├─kauth
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kwindowsystem
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libx11
+│ │ │ │ ├─libxcb
+│ │ │ │ ├─libxfixes
+│ │ │ │ ├─qt6-base
+│ │ │ │ ├─qt6-wayland
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libglvnd
+│ │ │ │ │ ├─libxkbcommon
+│ │ │ │ │ ├─qt6-base
+│ │ │ │ │ ├─qt6-declarative
+│ │ │ │ │ ├─qt6-svg
+│ │ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ ├─qt6-base
+│ │ │ │ │ │ └─zlib
+│ │ │ │ │ └─wayland
+│ │ │ │ ├─wayland
+│ │ │ │ └─xcb-util-keysyms
+│ │ │ ├─polkit-qt6
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glib2
+│ │ │ │ ├─glibc
+│ │ │ │ ├─polkit
+│ │ │ │ │ ├─duktape
+│ │ │ │ │ ├─expat
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─pam
+│ │ │ │ │ └─systemd-libs
+│ │ │ │ └─qt6-base
+│ │ │ └─qt6-base
+│ │ ├─kbookmarks
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kwidgetsaddons
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ └─qt6-base
+│ │ │ └─qt6-base
+│ │ ├─kcolorscheme
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kguiaddons
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libx11
+│ │ │ │ ├─qt6-base
+│ │ │ │ ├─qt6-wayland
+│ │ │ │ └─wayland
+│ │ │ ├─ki18n
+│ │ │ └─qt6-base
+│ │ ├─kcompletion
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcodecs
+│ │ │ ├─kconfig
+│ │ │ ├─kwidgetsaddons
+│ │ │ └─qt6-base
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─kdbusaddons
+│ │ ├─kguiaddons
+│ │ ├─ki18n
+│ │ ├─kiconthemes
+│ │ │ ├─breeze-icons
+│ │ │ │ ├─glibc
+│ │ │ │ └─qt6-base
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─karchive
+│ │ │ ├─kcolorscheme
+│ │ │ ├─kconfig
+│ │ │ ├─ki18n
+│ │ │ ├─kwidgetsaddons
+│ │ │ ├─qt6-base
+│ │ │ └─qt6-svg
+│ │ ├─kitemviews
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─kjobwidgets
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcoreaddons
+│ │ │ ├─knotifications
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─kconfig
+│ │ │ │ ├─libcanberra
+│ │ │ │ │ ├─libvorbis
+│ │ │ │ │ ├─libtool provides libltdl
+│ │ │ │ │ │ ├─bash provides sh
+│ │ │ │ │ │ ├─tar
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ └─acl
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ ├─alsa-lib
+│ │ │ │ │ ├─libpulse
+│ │ │ │ │ ├─tdb
+│ │ │ │ │ │ └─glibc
+│ │ │ │ │ └─sound-theme-freedesktop
+│ │ │ │ └─qt6-base
+│ │ │ ├─kwidgetsaddons
+│ │ │ └─qt6-base
+│ │ ├─kservice
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─ki18n
+│ │ │ └─qt6-base
+│ │ ├─kwallet
+│ │ │ ├─gcc-libs
+│ │ │ ├─glib2
+│ │ │ ├─glibc
+│ │ │ ├─gpgmepp
+│ │ │ ├─kcolorscheme
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kcrash
+│ │ │ ├─kdbusaddons
+│ │ │ ├─ki18n
+│ │ │ ├─knotifications
+│ │ │ ├─kwidgetsaddons
+│ │ │ ├─kwindowsystem
+│ │ │ ├─libgcrypt
+│ │ │ ├─libsecret
+│ │ │ ├─qca-qt6
+│ │ │ │ ├─ca-certificates
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─nss
+│ │ │ │ ├─qt6-5compat
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─icu
+│ │ │ │ │ ├─qt6-base
+│ │ │ │ │ └─qt6-shadertools
+│ │ │ │ │   ├─gcc-libs
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   └─qt6-base
+│ │ │ │ └─qt6-base
+│ │ │ └─qt6-base
+│ │ ├─kwidgetsaddons
+│ │ ├─kwindowsystem
+│ │ ├─libxml2
+│ │ ├─libxslt
+│ │ │ ├─bash
+│ │ │ ├─glibc
+│ │ │ ├─libgcrypt
+│ │ │ ├─libxml2
+│ │ │ └─xz
+│ │ ├─qt6-base
+│ │ ├─solid
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─libimobiledevice
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libimobiledevice-glue
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ └─libplist
+│ │ │ │ │   ├─gcc-libs
+│ │ │ │ │   └─glibc
+│ │ │ │ ├─libplist
+│ │ │ │ ├─libusbmuxd
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libimobiledevice-glue
+│ │ │ │ │ └─libplist
+│ │ │ │ └─openssl
+│ │ │ ├─libplist
+│ │ │ ├─media-player-info
+│ │ │ │ └─systemd
+│ │ │ │   ├─systemd-libs=257.8
+│ │ │ │   ├─acl
+│ │ │ │   ├─acl provides libacl.so=1-64
+│ │ │ │   ├─bash
+│ │ │ │   ├─cryptsetup
+│ │ │ │   │ ├─device-mapper
+│ │ │ │   │ │ ├─glibc
+│ │ │ │   │ │ ├─systemd-libs
+│ │ │ │   │ │ └─systemd-libs provides libudev.so=1-64
+│ │ │ │   │ ├─device-mapper provides libdevmapper.so=1.02-64
+│ │ │ │   │ ├─glibc
+│ │ │ │   │ ├─openssl
+│ │ │ │   │ ├─openssl provides libcrypto.so=3-64
+│ │ │ │   │ ├─popt
+│ │ │ │   │ │ └─glibc
+│ │ │ │   │ ├─util-linux-libs
+│ │ │ │   │ ├─util-linux-libs provides libblkid.so=1-64
+│ │ │ │   │ ├─util-linux-libs provides libuuid.so=1-64
+│ │ │ │   │ ├─json-c
+│ │ │ │   │ └─json-c provides libjson-c.so=5-64
+│ │ │ │   ├─cryptsetup provides libcryptsetup.so=12-64
+│ │ │ │   ├─dbus
+│ │ │ │   ├─dbus-units
+│ │ │ │   │ └─dbus-broker-units
+│ │ │ │   │   ├─dbus
+│ │ │ │   │   └─dbus-broker
+│ │ │ │   │     ├─audit
+│ │ │ │   │     ├─expat
+│ │ │ │   │     ├─gcc-libs
+│ │ │ │   │     ├─glibc
+│ │ │ │   │     ├─libcap-ng
+│ │ │ │   │     ├─systemd-libs
+│ │ │ │   │     ├─audit provides libaudit.so=1-64
+│ │ │ │   │     ├─libcap-ng provides libcap-ng.so=0-64
+│ │ │ │   │     ├─expat provides libexpat.so=1-64
+│ │ │ │   │     └─systemd-libs provides libsystemd.so=0-64
+│ │ │ │   ├─kbd
+│ │ │ │   │ ├─glibc
+│ │ │ │   │ ├─gzip
+│ │ │ │   │ │ ├─glibc
+│ │ │ │   │ │ ├─bash
+│ │ │ │   │ │ ├─coreutils
+│ │ │ │   │ │ ├─sed
+│ │ │ │   │ │ │ ├─glibc
+│ │ │ │   │ │ │ └─acl
+│ │ │ │   │ │ └─grep
+│ │ │ │   │ │   ├─glibc
+│ │ │ │   │ │   └─pcre2
+│ │ │ │   │ └─pam
+│ │ │ │   ├─kmod
+│ │ │ │   │ ├─glibc
+│ │ │ │   │ ├─zlib
+│ │ │ │   │ ├─openssl
+│ │ │ │   │ ├─xz
+│ │ │ │   │ └─zstd
+│ │ │ │   ├─hwdata
+│ │ │ │   ├─libcap
+│ │ │ │   ├─libcap provides libcap.so=2-64
+│ │ │ │   ├─libgcrypt
+│ │ │ │   ├─libxcrypt
+│ │ │ │   ├─libxcrypt provides libcrypt.so=2-64
+│ │ │ │   ├─libidn2
+│ │ │ │   ├─lz4
+│ │ │ │   ├─pam
+│ │ │ │   ├─libelf
+│ │ │ │   ├─libseccomp
+│ │ │ │   ├─libseccomp provides libseccomp.so=2-64
+│ │ │ │   ├─util-linux
+│ │ │ │   ├─util-linux-libs provides libblkid.so=1-64
+│ │ │ │   ├─util-linux-libs provides libmount.so=1-64
+│ │ │ │   ├─xz
+│ │ │ │   ├─pcre2
+│ │ │ │   ├─audit
+│ │ │ │   ├─audit provides libaudit.so=1-64
+│ │ │ │   ├─openssl
+│ │ │ │   ├─openssl provides libcrypto.so=3-64
+│ │ │ │   └─openssl provides libssl.so=3-64
+│ │ │ ├─qt6-base
+│ │ │ ├─systemd-libs
+│ │ │ ├─udisks2
+│ │ │ │ ├─acl
+│ │ │ │ ├─acl provides libacl.so=1-64
+│ │ │ │ ├─dbus
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glib2
+│ │ │ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ ├─glib2 provides libgmodule-2.0.so=0-64
+│ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libatasmart
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ └─systemd-libs
+│ │ │ │ ├─libblockdev
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─kmod
+│ │ │ │ │ ├─kmod provides libkmod.so=2-64
+│ │ │ │ │ ├─systemd-libs
+│ │ │ │ │ └─systemd-libs provides libudev.so=1-64
+│ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ ├─libblockdev provides libblockdev.so=3-64
+│ │ │ │ ├─libblockdev-crypto
+│ │ │ │ │ ├─cryptsetup
+│ │ │ │ │ ├─cryptsetup provides libcryptsetup.so=12-64
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─keyutils
+│ │ │ │ │ ├─keyutils provides libkeyutils.so=1-64
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ ├─nss
+│ │ │ │ │ ├─util-linux-libs
+│ │ │ │ │ ├─util-linux-libs provides libblkid.so=1-64
+│ │ │ │ │ └─volume_key
+│ │ │ │ │   ├─cryptsetup
+│ │ │ │ │   ├─glib2
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   ├─gpgme
+│ │ │ │ │   ├─nspr
+│ │ │ │ │   ├─nss
+│ │ │ │ │   └─util-linux-libs
+│ │ │ │ ├─libblockdev-fs
+│ │ │ │ │ ├─e2fsprogs
+│ │ │ │ │ ├─e2fsprogs provides libext2fs.so=2-64
+│ │ │ │ │ ├─e2fsprogs provides libe2p.so=2-64
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ ├─libbytesize
+│ │ │ │ │ │ ├─mpfr
+│ │ │ │ │ │ │ ├─glibc
+│ │ │ │ │ │ │ └─gmp
+│ │ │ │ │ │ └─pcre2
+│ │ │ │ │ ├─parted
+│ │ │ │ │ │ ├─device-mapper
+│ │ │ │ │ │ └─util-linux-libs
+│ │ │ │ │ ├─util-linux-libs
+│ │ │ │ │ ├─util-linux-libs provides libblkid.so=1-64
+│ │ │ │ │ ├─util-linux-libs provides libmount.so=1-64
+│ │ │ │ │ └─util-linux-libs provides libuuid.so=1-64
+│ │ │ │ ├─libblockdev-mdraid
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ ├─libbytesize
+│ │ │ │ │ └─mdadm
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   └─systemd
+│ │ │ │ ├─libblockdev-loop
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ └─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ ├─libblockdev-nvme
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ └─libnvme
+│ │ │ │ │   ├─dbus
+│ │ │ │ │   ├─gcc-libs
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   ├─json-c
+│ │ │ │ │   ├─keyutils
+│ │ │ │ │   ├─liburing
+│ │ │ │ │   └─openssl
+│ │ │ │ ├─libblockdev-part
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ ├─util-linux-libs
+│ │ │ │ │ └─util-linux-libs provides libfdisk.so=1-64
+│ │ │ │ ├─libblockdev-swap
+│ │ │ │ │ ├─gcc-libs
+│ │ │ │ │ ├─glib2
+│ │ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ │ ├─glibc
+│ │ │ │ │ ├─libblockdev=3.3.1
+│ │ │ │ │ ├─libblockdev provides libbd_utils.so=3-64
+│ │ │ │ │ ├─util-linux-libs
+│ │ │ │ │ └─util-linux-libs provides libblkid.so=1-64
+│ │ │ │ ├─libgudev
+│ │ │ │ ├─libgudev provides libgudev-1.0.so=0-64
+│ │ │ │ ├─polkit
+│ │ │ │ ├─polkit provides libpolkit-agent-1.so=0-64
+│ │ │ │ ├─polkit provides libpolkit-gobject-1.so=0-64
+│ │ │ │ ├─systemd-libs
+│ │ │ │ ├─systemd-libs provides libsystemd.so=0-64
+│ │ │ │ ├─util-linux-libs
+│ │ │ │ ├─util-linux-libs provides libblkid.so=1-64
+│ │ │ │ ├─util-linux-libs provides libmount.so=1-64
+│ │ │ │ └─util-linux-libs provides libuuid.so=1-64
+│ │ │ ├─upower
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glib2
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libgudev
+│ │ │ │ ├─libimobiledevice
+│ │ │ │ ├─libplist
+│ │ │ │ ├─polkit
+│ │ │ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ │ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ │ │ └─glib2 provides libgio-2.0.so=0-64
+│ │ │ └─util-linux-libs
+│ │ └─util-linux-libs
+│ ├─lmdb
+│ ├─qt6-base
+│ └─solid
+├─noto-fonts-emoji provides emoji-font
+├─gcc-libs
+├─glibc
+├─kauth
+├─kbookmarks
+├─kcmutils
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ ├─kconfigwidgets
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kcodecs
+│ │ ├─kcolorscheme
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─ki18n
+│ │ ├─kwidgetsaddons
+│ │ └─qt6-base
+│ ├─kcoreaddons
+│ ├─kguiaddons
+│ ├─ki18n
+│ ├─kio
+│ ├─kirigami
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ └─qt6-svg
+│ ├─kitemviews
+│ ├─kservice
+│ ├─kwidgetsaddons
+│ ├─kxmlgui
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kconfigwidgets
+│ │ ├─kcoreaddons
+│ │ ├─kglobalaccel
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─kguiaddons
+│ │ ├─ki18n
+│ │ ├─kiconthemes
+│ │ ├─kitemviews
+│ │ ├─kwidgetsaddons
+│ │ └─qt6-base
+│ ├─qt6-base
+│ └─qt6-declarative
+├─kcodecs
+├─kcompletion
+├─kconfig
+├─kconfigwidgets
+├─kcoreaddons
+├─kcrash
+├─kdbusaddons
+├─kdeclarative
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ ├─kguiaddons
+│ ├─kglobalaccel
+│ ├─kguiaddons
+│ ├─ki18n
+│ ├─kwidgetsaddons
+│ ├─qt6-base
+│ └─qt6-declarative
+├─kglobalaccel
+├─kguiaddons
+├─ki18n
+├─kiconthemes
+├─kio
+├─kirigami
+├─kirigami-addons
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─kglobalaccel
+│ ├─kguiaddons
+│ ├─ki18n
+│ ├─kirigami
+│ ├─kitemmodels
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─ksvg
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─karchive
+│ │ ├─kcolorscheme
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kguiaddons
+│ │ ├─qt6-base
+│ │ └─qt6-svg
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ ├─qt6-multimedia
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─libpulse
+│ │ ├─qt6-base
+│ │ └─qt6-multimedia-ffmpeg provides qt6-multimedia-backend
+│ │   ├─ffmpeg
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   ├─libglvnd
+│ │   ├─libx11
+│ │   ├─libxext
+│ │   ├─libxrandr
+│ │   │ ├─libxext
+│ │   │ ├─libxrender
+│ │   │ ├─libx11
+│ │   │ └─glibc
+│ │   ├─qt6-base
+│ │   ├─qt6-declarative
+│ │   └─qt6-multimedia
+│ └─sonnet
+│   ├─gcc-libs
+│   ├─glibc
+│   └─qt6-base
+├─kitemmodels
+├─kitemviews
+├─kjobwidgets
+├─kmenuedit
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kcompletion
+│ ├─kconfig
+│ ├─kconfigwidgets
+│ ├─kcoreaddons
+│ ├─kcrash
+│ ├─kdbusaddons
+│ ├─kglobalaccel
+│ ├─ki18n
+│ ├─kiconthemes
+│ ├─kio
+│ ├─kitemviews
+│ ├─kservice
+│ ├─kwidgetsaddons
+│ ├─kwindowsystem
+│ ├─kxmlgui
+│ ├─qt6-base
+│ └─sonnet
+├─knewstuff
+│ ├─attica
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─karchive
+│ ├─kcmutils
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─ki18n
+│ ├─kirigami
+│ ├─kpackage
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─karchive
+│ │ ├─kcoreaddons
+│ │ ├─ki18n
+│ │ └─qt6-base
+│ ├─kwidgetsaddons
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ └─syndication
+│   ├─gcc-libs
+│   ├─glibc
+│   ├─kcodecs
+│   └─qt6-base
+├─knotifications
+├─knotifyconfig
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ ├─ki18n
+│ ├─kio
+│ ├─libcanberra
+│ └─qt6-base
+├─kpackage
+├─kpipewire
+│ ├─ffmpeg
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kcoreaddons
+│ ├─ki18n
+│ ├─libdrm
+│ ├─libepoxy
+│ │ ├─glibc
+│ │ ├─libglvnd
+│ │ └─libx11
+│ ├─libpipewire
+│ ├─libva
+│ ├─mesa
+│ ├─qt6-base
+│ └─qt6-declarative
+├─krunner
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─ki18n
+│ ├─kitemmodels
+│ ├─kwindowsystem
+│ └─qt6-base
+├─kservice
+├─ksvg
+├─kwidgetsaddons
+├─kwindowsystem
+├─kxmlgui
+├─libcanberra
+├─libksysguard
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kauth
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─kdeclarative
+│ ├─ki18n
+│ ├─kirigami
+│ ├─kitemmodels
+│ ├─knewstuff
+│ ├─kpackage
+│ ├─kquickcharts
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kirigami
+│ │ ├─qt6-base
+│ │ └─qt6-declarative
+│ ├─kservice
+│ ├─libdrm
+│ ├─libnl
+│ │ ├─glibc
+│ │ └─gcc-libs
+│ ├─libpcap
+│ │ ├─glibc
+│ │ ├─libnl
+│ │ ├─bash provides sh
+│ │ └─dbus provides libdbus-1.so=3-64
+│ ├─lm_sensors
+│ ├─qt6-5compat
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ └─solid
+├─libwacom
+├─libx11
+├─libxcb
+├─libxcursor
+├─libxi
+│ ├─libxext
+│ ├─libxfixes
+│ ├─libx11
+│ ├─glibc
+│ └─xorgproto
+├─libxkbcommon
+├─libxkbfile
+│ ├─libx11
+│ ├─xorgproto
+│ └─glibc
+├─libplasma
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─plasma-activities
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ └─qt6-base
+│ ├─kcolorscheme
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─kglobalaccel
+│ ├─kguiaddons
+│ ├─ki18n
+│ ├─kiconthemes
+│ ├─kio
+│ ├─kirigami
+│ ├─knotifications
+│ ├─kpackage
+│ ├─ksvg
+│ ├─kwidgetsaddons
+│ ├─kwindowsystem
+│ ├─libglvnd
+│ ├─libx11
+│ ├─libxcb
+│ ├─qt6-5compat
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ ├─qt6-wayland
+│ └─wayland
+├─plasma-activities
+├─plasma-activities-stats
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─plasma-activities
+│ ├─kconfig
+│ └─qt6-base
+├─plasma-workspace
+│ ├─accountsservice
+│ │ ├─gcc-libs
+│ │ ├─glib2
+│ │ ├─glibc
+│ │ ├─libxcrypt
+│ │ ├─polkit
+│ │ ├─shadow
+│ │ ├─systemd
+│ │ ├─libxcrypt provides libcrypt.so=2-64
+│ │ ├─glib2 provides libglib-2.0.so=0-64
+│ │ ├─glib2 provides libgobject-2.0.so=0-64
+│ │ ├─glib2 provides libgio-2.0.so=0-64
+│ │ └─systemd-libs provides libsystemd.so=0-64
+│ ├─appstream-qt
+│ │ ├─appstream
+│ │ │ ├─cairo
+│ │ │ ├─curl
+│ │ │ ├─fontconfig
+│ │ │ ├─freetype2
+│ │ │ ├─gcc-libs
+│ │ │ ├─gdk-pixbuf2
+│ │ │ ├─glib2
+│ │ │ ├─glibc
+│ │ │ ├─librsvg
+│ │ │ ├─libstemmer
+│ │ │ │ └─glibc
+│ │ │ ├─libxml2
+│ │ │ ├─libxmlb
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─glib2
+│ │ │ │ ├─libstemmer
+│ │ │ │ ├─xz
+│ │ │ │ └─zstd
+│ │ │ ├─libyaml
+│ │ │ │ └─glibc
+│ │ │ ├─pango
+│ │ │ ├─systemd-libs
+│ │ │ └─zstd
+│ │ ├─gcc-libs
+│ │ ├─glib2
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─dbus
+│ ├─fontconfig
+│ ├─freetype2
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─icu
+│ ├─kactivitymanagerd
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─kglobalaccel
+│ │ ├─ki18n
+│ │ ├─kio
+│ │ ├─kservice
+│ │ ├─kxmlgui
+│ │ └─qt6-base
+│ ├─karchive
+│ ├─kauth
+│ ├─kbookmarks
+│ ├─kcmutils
+│ ├─kcolorscheme
+│ ├─kcompletion
+│ ├─kconfig
+│ ├─kconfigwidgets
+│ ├─kcoreaddons
+│ ├─kcrash
+│ ├─kde-cli-tools
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kcmutils
+│ │ ├─kcompletion
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kdesu
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─ki18n
+│ │ │ ├─kpty
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─kcoreaddons
+│ │ │ │ ├─ki18n
+│ │ │ │ ├─libutempter
+│ │ │ │ │ └─glibc
+│ │ │ │ └─qt6-base
+│ │ │ ├─libx11
+│ │ │ └─qt6-base
+│ │ ├─ki18n
+│ │ ├─kiconthemes
+│ │ ├─kio
+│ │ ├─kparts
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─ki18n
+│ │ │ ├─kio
+│ │ │ ├─kwidgetsaddons
+│ │ │ ├─kxmlgui
+│ │ │ └─qt6-base
+│ │ ├─kservice
+│ │ ├─kwidgetsaddons
+│ │ ├─kwindowsystem
+│ │ ├─qt6-base
+│ │ ├─qt6-svg
+│ │ └─bash provides sh
+│ ├─kdeclarative
+│ ├─kded
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─kdbusaddons
+│ │ ├─kservice
+│ │ └─qt6-base
+│ ├─kdbusaddons
+│ ├─kglobalaccel
+│ ├─kguiaddons
+│ ├─kholidays
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─ki18n
+│ ├─kiconthemes
+│ ├─kio
+│ ├─kio-extras
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─karchive
+│ │ ├─kcmutils
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kdbusaddons
+│ │ ├─kdnssd
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─kdsoap-qt6
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─kdsoap-ws-discovery-client
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kdsoap-qt6
+│ │ │ └─qt6-base
+│ │ ├─ki18n
+│ │ ├─kio
+│ │ ├─knotifications
+│ │ ├─kservice
+│ │ ├─ktextwidgets
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcompletion
+│ │ │ ├─kconfig
+│ │ │ ├─ki18n
+│ │ │ ├─kwidgetsaddons
+│ │ │ ├─qt6-base
+│ │ │ ├─qt6-speech
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─qt6-base
+│ │ │ │ └─qt6-multimedia
+│ │ │ └─sonnet
+│ │ ├─kwidgetsaddons
+│ │ ├─libimobiledevice
+│ │ ├─libkexiv2
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─exiv2
+│ │ │ └─qt6-base
+│ │ ├─libmtp
+│ │ │ ├─glibc
+│ │ │ ├─libgcrypt
+│ │ │ └─libusb
+│ │ ├─libplist
+│ │ ├─libproxy
+│ │ ├─libssh
+│ │ ├─libtirpc
+│ │ ├─libxcursor
+│ │ ├─plasma-activities
+│ │ ├─qt6-5compat
+│ │ ├─qt6-base
+│ │ ├─qt6-svg
+│ │ ├─ripgrep-all
+│ │ │ ├─ripgrep
+│ │ │ │ ├─gcc-libs
+│ │ │ │ └─pcre2
+│ │ │ └─xz
+│ │ ├─bash provides sh
+│ │ ├─smbclient
+│ │ │ ├─cifs-utils
+│ │ │ │ ├─keyutils
+│ │ │ │ ├─krb5
+│ │ │ │ ├─pam
+│ │ │ │ ├─libcap-ng
+│ │ │ │ ├─libwbclient
+│ │ │ │ │ └─libbsd
+│ │ │ │ │   ├─glibc
+│ │ │ │ │   └─libmd
+│ │ │ │ │     └─glibc
+│ │ │ │ └─talloc
+│ │ │ │   ├─glibc
+│ │ │ │   ├─libbsd
+│ │ │ │   └─libxcrypt
+│ │ │ ├─gnutls
+│ │ │ ├─icu
+│ │ │ ├─jansson
+│ │ │ │ └─glibc
+│ │ │ ├─ldb
+│ │ │ │ ├─tevent provides libtevent.so=0-64
+│ │ │ │ │ └─talloc
+│ │ │ │ ├─lmdb
+│ │ │ │ ├─popt
+│ │ │ │ ├─talloc
+│ │ │ │ ├─tdb
+│ │ │ │ └─tdb provides libtdb.so=1-64
+│ │ │ ├─libarchive
+│ │ │ │ ├─acl
+│ │ │ │ ├─acl provides libacl.so=1-64
+│ │ │ │ ├─bzip2
+│ │ │ │ ├─bzip2 provides libbz2.so=1.0-64
+│ │ │ │ ├─glibc
+│ │ │ │ ├─libxml2
+│ │ │ │ ├─libxml2 provides libxml2.so=16-64
+│ │ │ │ ├─lz4
+│ │ │ │ ├─openssl
+│ │ │ │ ├─openssl provides libcrypto.so=3-64
+│ │ │ │ ├─xz
+│ │ │ │ ├─xz provides liblzma.so=5-64
+│ │ │ │ ├─zlib
+│ │ │ │ ├─zlib provides libz.so=1-64
+│ │ │ │ ├─zstd
+│ │ │ │ └─zstd provides libzstd.so=1-64
+│ │ │ ├─libbsd
+│ │ │ ├─libcups
+│ │ │ ├─libldap
+│ │ │ ├─ldb provides libldb.so=2-64
+│ │ │ ├─libnsl
+│ │ │ ├─readline provides libreadline.so=8-64
+│ │ │ ├─tdb provides libtdb.so=1-64
+│ │ │ ├─tevent provides libtevent.so=0-64
+│ │ │ ├─libwbclient
+│ │ │ ├─popt
+│ │ │ ├─python
+│ │ │ ├─readline
+│ │ │ ├─talloc
+│ │ │ ├─tdb
+│ │ │ └─tevent
+│ │ ├─solid
+│ │ └─syntax-highlighting
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   └─qt6-base
+│ ├─kio-fuse
+│ │ ├─fuse3
+│ │ │ ├─fuse-common
+│ │ │ └─glibc
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kcoreaddons
+│ │ ├─kio
+│ │ └─qt6-base
+│ ├─kirigami
+│ ├─kirigami-addons
+│ ├─kitemmodels
+│ ├─kjobwidgets
+│ ├─knewstuff
+│ ├─knotifications
+│ ├─knotifyconfig
+│ ├─kpackage
+│ ├─kparts
+│ ├─kpipewire
+│ ├─krunner
+│ ├─kquickcharts
+│ ├─kscreenlocker
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─kdeclarative
+│ │ ├─kglobalaccel
+│ │ ├─ki18n
+│ │ ├─kidletime
+│ │ ├─kio
+│ │ ├─kirigami
+│ │ ├─knotifications
+│ │ ├─kpackage
+│ │ ├─ksvg
+│ │ ├─kwindowsystem
+│ │ ├─kxmlgui
+│ │ ├─layer-shell-qt
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─qt6-base
+│ │ │ ├─qt6-wayland
+│ │ │ └─wayland
+│ │ ├─libkscreen
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─libxcb
+│ │ │ ├─qt6-base
+│ │ │ ├─qt6-wayland
+│ │ │ └─wayland
+│ │ ├─libx11
+│ │ ├─libxcb
+│ │ ├─libxi
+│ │ ├─pam
+│ │ ├─libplasma
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ ├─wayland
+│ │ └─xcb-util-keysyms
+│ ├─kservice
+│ ├─kstatusnotifieritem
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kwindowsystem
+│ │ └─qt6-base
+│ ├─ksvg
+│ ├─ksystemstats
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─ki18n
+│ │ ├─kio
+│ │ ├─libksysguard
+│ │ ├─lm_sensors
+│ │ ├─qt6-base
+│ │ └─solid
+│ ├─ktexteditor
+│ │ ├─editorconfig-core-c
+│ │ │ ├─glibc
+│ │ │ └─pcre2
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─karchive
+│ │ ├─kauth
+│ │ ├─kcodecs
+│ │ ├─kcolorscheme
+│ │ ├─kcompletion
+│ │ ├─kconfig
+│ │ ├─kconfigwidgets
+│ │ ├─kcoreaddons
+│ │ ├─kguiaddons
+│ │ ├─ki18n
+│ │ ├─kio
+│ │ ├─kitemviews
+│ │ ├─kparts
+│ │ ├─kwidgetsaddons
+│ │ ├─kxmlgui
+│ │ ├─qt6-declarative
+│ │ ├─qt6-base
+│ │ ├─qt6-speech
+│ │ ├─sonnet
+│ │ └─syntax-highlighting
+│ ├─ktextwidgets
+│ ├─kunitconversion
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─ki18n
+│ │ └─qt6-base
+│ ├─kuserfeedback
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ └─qt6-base
+│ ├─kwallet
+│ ├─kwayland
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ ├─qt6-wayland
+│ │ └─wayland
+│ ├─kwidgetsaddons
+│ ├─kwin
+│ │ ├─aurorae
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcmutils
+│ │ │ ├─kcolorscheme
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kdecoration
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─ki18n
+│ │ │ │ └─qt6-base
+│ │ │ ├─ki18n
+│ │ │ ├─kirigami
+│ │ │ ├─knewstuff
+│ │ │ ├─kpackage
+│ │ │ ├─ksvg
+│ │ │ ├─qt6-base
+│ │ │ ├─qt6-declarative
+│ │ │ ├─qt6-tools
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─qt6-base
+│ │ │ │ └─zstd
+│ │ │ └─bash provides sh
+│ │ ├─breeze
+│ │ │ ├─breeze-icons
+│ │ │ ├─frameworkintegration
+│ │ │ │ ├─gcc-libs
+│ │ │ │ ├─glibc
+│ │ │ │ ├─kcolorscheme
+│ │ │ │ ├─kconfig
+│ │ │ │ ├─ki18n
+│ │ │ │ ├─kiconthemes
+│ │ │ │ ├─knewstuff
+│ │ │ │ ├─knotifications
+│ │ │ │ ├─kwidgetsaddons
+│ │ │ │ └─qt6-base
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kcmutils
+│ │ │ ├─kcolorscheme
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kdecoration
+│ │ │ ├─kguiaddons
+│ │ │ ├─ki18n
+│ │ │ ├─kiconthemes
+│ │ │ ├─kirigami
+│ │ │ ├─kwidgetsaddons
+│ │ │ ├─kwindowsystem
+│ │ │ ├─qt6-base
+│ │ │ ├─qt6-declarative
+│ │ │ └─qt6-svg
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─plasma-activities
+│ │ ├─kauth
+│ │ ├─kcmutils
+│ │ ├─kcolorscheme
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kcrash
+│ │ ├─kdbusaddons
+│ │ ├─kdeclarative
+│ │ ├─kdecoration
+│ │ ├─kglobalaccel
+│ │ ├─kglobalacceld
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─kconfig
+│ │ │ ├─kcoreaddons
+│ │ │ ├─kcrash
+│ │ │ ├─kdbusaddons
+│ │ │ ├─kglobalaccel
+│ │ │ ├─kio
+│ │ │ ├─kjobwidgets
+│ │ │ ├─kservice
+│ │ │ ├─kwindowsystem
+│ │ │ ├─libx11
+│ │ │ ├─libxcb
+│ │ │ ├─qt6-base
+│ │ │ └─xcb-util-keysyms
+│ │ ├─kguiaddons
+│ │ ├─ki18n
+│ │ ├─kidletime
+│ │ ├─kirigami
+│ │ ├─kitemmodels
+│ │ ├─knewstuff
+│ │ ├─knotifications
+│ │ ├─kpackage
+│ │ ├─kquickcharts
+│ │ ├─kscreenlocker
+│ │ ├─kservice
+│ │ ├─ksvg
+│ │ ├─kwayland
+│ │ ├─kwidgetsaddons
+│ │ ├─kwindowsystem
+│ │ ├─kxmlgui
+│ │ ├─lcms2
+│ │ ├─libcanberra
+│ │ ├─libdisplay-info
+│ │ │ └─glibc
+│ │ ├─libdrm
+│ │ ├─libei
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ ├─libevdev
+│ │ │ └─systemd-libs
+│ │ ├─libepoxy
+│ │ ├─libinput
+│ │ ├─libpipewire
+│ │ ├─libqaccessibilityclient-qt6
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─libxcb
+│ │ ├─libxcvt
+│ │ │ └─glibc
+│ │ ├─libxkbcommon
+│ │ ├─mesa
+│ │ ├─wireplumber provides pipewire-session-manager
+│ │ ├─libplasma
+│ │ ├─qt6-5compat
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ ├─qt6-sensors
+│ │ │ ├─gcc-libs
+│ │ │ ├─glibc
+│ │ │ └─qt6-base
+│ │ ├─qt6-svg
+│ │ ├─qt6-tools
+│ │ ├─systemd-libs
+│ │ ├─wayland
+│ │ ├─xcb-util-cursor
+│ │ ├─xcb-util-keysyms
+│ │ └─xcb-util-wm
+│ ├─kwindowsystem
+│ ├─kxmlgui
+│ ├─layer-shell-qt
+│ ├─libcanberra
+│ ├─libice
+│ ├─libkexiv2
+│ ├─libksysguard
+│ ├─libplasma
+│ ├─libqalculate
+│ │ ├─curl
+│ │ ├─icu
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─gmp
+│ │ ├─libxml2
+│ │ ├─mpfr
+│ │ └─readline
+│ ├─libsm
+│ ├─libx11
+│ ├─libxau
+│ ├─libxcb
+│ ├─libxcrypt
+│ ├─libxcursor
+│ ├─libxfixes
+│ ├─libxft
+│ ├─libxtst
+│ │ ├─libxext
+│ │ ├─libxi
+│ │ ├─libx11
+│ │ ├─glibc
+│ │ └─xorgproto
+│ ├─milou
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kirigami
+│ │ ├─krunner
+│ │ ├─ksvg
+│ │ ├─libplasma
+│ │ ├─qt6-base
+│ │ └─qt6-declarative
+│ ├─ocean-sound-theme
+│ ├─plasma-activities
+│ ├─plasma-activities-stats
+│ ├─plasma5support
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─kconfig
+│ │ ├─kcoreaddons
+│ │ ├─kguiaddons
+│ │ ├─ki18n
+│ │ ├─kidletime
+│ │ ├─kio
+│ │ ├─kjobwidgets
+│ │ ├─knotifications
+│ │ ├─kservice
+│ │ ├─libksysguard
+│ │ ├─libx11
+│ │ ├─libxfixes
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ └─solid
+│ ├─prison
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─libdmtx
+│ │ │ └─glibc
+│ │ ├─qrencode
+│ │ │ └─libpng
+│ │ ├─qt6-base
+│ │ ├─qt6-multimedia
+│ │ └─zxing-cpp
+│ │   ├─gcc-libs
+│ │   └─glibc
+│ ├─qt6-5compat
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ ├─qt6-location
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ └─qt6-positioning
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   └─qt6-base
+│ ├─qt6-positioning
+│ ├─qt6-svg
+│ ├─qt6-tools
+│ ├─qt6-virtualkeyboard
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─hunspell
+│ │ │ ├─gcc-libs
+│ │ │ ├─readline
+│ │ │ ├─ncurses
+│ │ │ ├─glibc
+│ │ │ └─bash provides sh
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ ├─qt6-multimedia
+│ │ └─qt6-svg
+│ ├─qt6-wayland
+│ ├─bash provides sh
+│ ├─solid
+│ ├─systemd-libs
+│ ├─wayland
+│ ├─xcb-util
+│ ├─xcb-util-cursor
+│ ├─xcb-util-image
+│ ├─xorg-xmessage
+│ │ ├─libxaw
+│ │ │ ├─libxmu
+│ │ │ ├─libxpm
+│ │ │ │ ├─libxt
+│ │ │ │ ├─libxext
+│ │ │ │ ├─libx11
+│ │ │ │ └─glibc
+│ │ │ ├─libx11
+│ │ │ ├─libxt
+│ │ │ ├─libxext
+│ │ │ ├─xorgproto
+│ │ │ └─glibc
+│ │ ├─libx11
+│ │ ├─libxt
+│ │ └─glibc
+│ ├─xorg-xrdb
+│ │ ├─libx11
+│ │ ├─libxmu
+│ │ └─glibc
+│ ├─xorg-xwayland
+│ │ ├─nettle
+│ │ ├─libepoxy
+│ │ ├─libxfont2
+│ │ │ ├─freetype2
+│ │ │ ├─libfontenc
+│ │ │ │ ├─zlib
+│ │ │ │ ├─glibc
+│ │ │ │ └─xorg-fonts-encodings
+│ │ │ ├─xorgproto
+│ │ │ ├─zlib
+│ │ │ └─glibc
+│ │ ├─pixman
+│ │ ├─xorg-server-common
+│ │ │ ├─xkeyboard-config
+│ │ │ ├─xorg-xkbcomp
+│ │ │ │ ├─libxkbfile
+│ │ │ │ ├─libx11
+│ │ │ │ └─glibc
+│ │ │ └─xorg-setxkbmap
+│ │ │   ├─libxkbfile
+│ │ │   └─libxrandr
+│ │ ├─libxcvt
+│ │ ├─mesa
+│ │ ├─libglvnd
+│ │ ├─libxau
+│ │ ├─wayland
+│ │ ├─libdrm
+│ │ ├─libtirpc
+│ │ ├─libei
+│ │ ├─libxshmfence
+│ │ ├─libdecor
+│ │ │ ├─wayland
+│ │ │ ├─pango
+│ │ │ └─dbus
+│ │ └─glibc
+│ ├─zlib
+│ └─plasma-integration
+│   ├─gcc-libs
+│   ├─glibc
+│   ├─kcolorscheme
+│   ├─kcompletion
+│   ├─kconfig
+│   ├─kcoreaddons
+│   ├─kguiaddons
+│   ├─kiconthemes
+│   ├─ki18n
+│   ├─kio
+│   ├─kjobwidgets
+│   ├─kservice
+│   ├─kstatusnotifieritem
+│   ├─kwidgetsaddons
+│   ├─kwindowsystem
+│   ├─kxmlgui
+│   ├─libxcb
+│   ├─libxcursor
+│   ├─qqc2-breeze-style
+│   │ ├─gcc-libs
+│   │ ├─glibc
+│   │ ├─kcolorscheme
+│   │ ├─kconfig
+│   │ ├─kguiaddons
+│   │ ├─kiconthemes
+│   │ ├─kirigami
+│   │ ├─qt6-base
+│   │ └─qt6-declarative
+│   ├─qqc2-desktop-style
+│   │ ├─gcc-libs
+│   │ ├─glibc
+│   │ ├─kcolorscheme
+│   │ ├─kconfig
+│   │ ├─kiconthemes
+│   │ ├─kirigami
+│   │ ├─qt6-base
+│   │ ├─qt6-declarative
+│   │ └─sonnet
+│   ├─qt6-base
+│   ├─qt6-declarative
+│   ├─qt6-wayland
+│   ├─wayland
+│   ├─noto-fonts
+│   ├─ttf-hack
+│   └─xdg-desktop-portal-kde
+│     ├─gcc-libs
+│     ├─glibc
+│     ├─kconfig
+│     ├─kcoreaddons
+│     ├─kcrash
+│     ├─kglobalaccel
+│     ├─kguiaddons
+│     ├─kiconthemes
+│     ├─ki18n
+│     ├─kio
+│     ├─kio-fuse
+│     ├─kirigami
+│     ├─kirigami-addons
+│     ├─kitemviews
+│     ├─knotifications
+│     ├─kpipewire
+│     ├─kservice
+│     ├─kstatusnotifieritem
+│     ├─kwayland
+│     ├─kwindowsystem
+│     ├─libxkbcommon
+│     ├─plasma-workspace
+│     ├─qt6-base
+│     ├─qt6-declarative
+│     ├─qt6-wayland
+│     ├─wayland
+│     └─xdg-desktop-portal
+│       ├─fuse3
+│       ├─gcc-libs
+│       ├─gdk-pixbuf2
+│       ├─glib2
+│       ├─glibc
+│       ├─gstreamer
+│       │ ├─gcc-libs
+│       │ ├─glib2
+│       │ ├─glibc
+│       │ ├─libcap
+│       │ ├─libelf
+│       │ └─libunwind
+│       ├─gst-plugins-base-libs
+│       │ ├─gstreamer=1.26.5-1
+│       │ ├─glib2
+│       │ ├─glibc
+│       │ ├─graphene
+│       │ │ ├─glib2
+│       │ │ └─glibc
+│       │ ├─iso-codes
+│       │ ├─libdrm
+│       │ ├─libglvnd
+│       │ ├─libgudev
+│       │ ├─libjpeg-turbo
+│       │ ├─libpng
+│       │ ├─libx11
+│       │ ├─libxcb
+│       │ ├─libxext
+│       │ ├─libxi
+│       │ ├─libxv
+│       │ ├─mesa
+│       │ ├─orc
+│       │ │ └─glibc
+│       │ ├─wayland
+│       │ └─zlib
+│       ├─json-glib
+│       │ ├─glib2
+│       │ ├─glibc
+│       │ ├─glib2 provides libglib-2.0.so=0-64
+│       │ ├─glib2 provides libgobject-2.0.so=0-64
+│       │ └─glib2 provides libgio-2.0.so=0-64
+│       ├─libgudev
+│       ├─libpipewire
+│       ├─pipewire
+│       ├─rtkit
+│       │ ├─dbus
+│       │ ├─polkit
+│       │ └─systemd
+│       ├─systemd
+│       └─systemd-libs
+├─plasma5support
+├─polkit-kde-agent
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─kcoreaddons
+│ ├─kcrash
+│ ├─kdbusaddons
+│ ├─ki18n
+│ ├─kirigami
+│ ├─knotifications
+│ ├─kwindowsystem
+│ ├─polkit-qt6
+│ ├─qt6-base
+│ └─qt6-declarative
+├─powerdevil
+│ ├─ddcutil
+│ │ ├─glib2
+│ │ ├─i2c-tools
+│ │ │ └─perl
+│ │ │   ├─gdbm>=1.17
+│ │ │   ├─db5.3
+│ │ │   │ ├─gcc-libs
+│ │ │   │ └─bash provides sh
+│ │ │   ├─glibc
+│ │ │   ├─libxcrypt
+│ │ │   └─libxcrypt provides libcrypt.so=2-64
+│ │ ├─libusb
+│ │ ├─libdrm
+│ │ ├─jansson
+│ │ ├─libx11
+│ │ ├─libxext
+│ │ └─libxrandr
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─plasma-activities
+│ ├─kauth
+│ ├─kcmutils
+│ ├─kconfig
+│ ├─kcoreaddons
+│ ├─kcrash
+│ ├─kdbusaddons
+│ ├─kglobalaccel
+│ ├─ki18n
+│ ├─kidletime
+│ ├─kirigami
+│ ├─kitemmodels
+│ ├─knotifications
+│ ├─kservice
+│ ├─ksvg
+│ ├─kwindowsystem
+│ ├─kxmlgui
+│ ├─libkscreen
+│ ├─libplasma
+│ ├─libxcb
+│ ├─plasma-workspace
+│ ├─qcoro
+│ │ ├─gcc-libs
+│ │ ├─glibc
+│ │ ├─qt6-base
+│ │ ├─qt6-declarative
+│ │ └─qt6-websockets
+│ │   ├─gcc-libs
+│ │   ├─glibc
+│ │   └─qt6-base
+│ ├─qt6-base
+│ ├─qt6-declarative
+│ ├─qt6-wayland
+│ ├─solid
+│ ├─systemd-libs
+│ └─wayland
+├─qt6-5compat
+├─qt6-base
+├─qt6-declarative
+├─qt6-wayland
+├─sdl2-compat provides sdl2
+├─solid
+├─sonnet
+├─systemsettings
+│ ├─gcc-libs
+│ ├─glibc
+│ ├─plasma-activities
+│ ├─kauth
+│ ├─kcmutils
+│ ├─kcolorscheme
+│ ├─kconfig
+│ ├─kconfigwidgets
+│ ├─kcoreaddons
+│ ├─kcrash
+│ ├─kdbusaddons
+│ ├─ki18n
+│ ├─kio
+│ ├─kirigami
+│ ├─kitemmodels
+│ ├─kitemviews
+│ ├─kjobwidgets
+│ ├─krunner
+│ ├─kservice
+│ ├─kwidgetsaddons
+│ ├─kwindowsystem
+│ ├─kxmlgui
+│ ├─qt6-base
+│ └─qt6-declarative
+├─wayland
+├─xcb-util-keysyms
+└─xdg-user-dirs
+  ├─bash provides sh
+  └─systemd

@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false
+}

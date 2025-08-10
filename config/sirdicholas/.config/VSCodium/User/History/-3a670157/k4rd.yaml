@@ -1,0 +1,20 @@
+name: Local Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: deepseek-coder-v2:16b
+    provider: ollama
+    apiBase: http://10.10.10.200:11434
+    model: deepseek-coder-v2:16b
+    roles:
+      - chat
+      - edit
+      - apply
+context:
+  - provider: code
+  - provider: docs
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: folder
+  - provider: codebase

@@ -1,0 +1,40 @@
+2025-08-09 13:41:05.992 [info] Extension host with pid 29263 started
+2025-08-09 13:41:06.015 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-09 13:41:06.043 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-09 13:41:06.071 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 13:41:06.115 [info] Eager extensions activated
+2025-08-09 13:41:06.116 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:41:06.117 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:41:08.308 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 13:41:44.227 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:41:45.679 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:41:45.685 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:41:45.719 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:41:51.532 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:43:13.205 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:43:15.047 [error] Error: SQLITE_ERROR: no such table: indexing_lock
+--> in Database#get('SELECT locked, dirs, timestamp FROM indexing_lock WHERE locked = ?', true, [Function (anonymous)])
+	at new Promise (<anonymous>)
+2025-08-09 13:55:08.134 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-09 13:55:08.140 [info] Extension host with pid 29263 exiting with code 0
+2025-08-09 13:55:08.827 [info] Extension host with pid 32783 started
+2025-08-09 13:55:08.827 [info] Skipping acquiring lock for /home/sirdicholas/.config/VSCodium/User/workspaceStorage/1a770ca6845755a9767a226eb200b9d4.
+2025-08-09 13:55:08.842 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-08-09 13:55:08.846 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 13:55:08.883 [info] Eager extensions activated
+2025-08-09 13:55:08.884 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:55:08.886 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:55:08.899 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:55:11.642 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-08-09 13:55:11.731 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:55:11.789 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 13:55:21.273 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 13:55:27.889 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-09 13:57:07.996 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-08-09 13:57:08.004 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-08-09 13:57:08.303 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-08-09 13:57:46.576 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:57:46.583 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:57:46.618 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 13:59:50.738 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-09 13:59:50.746 [info] Extension host with pid 32783 exiting with code 0

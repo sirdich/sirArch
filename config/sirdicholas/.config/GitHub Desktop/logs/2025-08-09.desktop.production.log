@@ -1,0 +1,88 @@
+2025-08-09T04:59:27.437Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-08-09T04:59:27.459Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-08-09T04:59:27.461Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-08-09T04:59:27.462Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.15.9-arch1-1)
+2025-08-09T04:59:27.462Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-08-09T04:59:27.514Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-08-09T04:59:28.097Z - info: [ui] Opt in reported.
+2025-08-09T04:59:28.850Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-08-09T04:59:28.850Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-08-09T04:59:28.852Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=f67c8cd2-9185-4d5e-8676-af7b735b4a89
+2025-08-09T04:59:28.853Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2025-08-09T04:59:33.080Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-08-09T04:59:36.681Z - info: [main] Processing protocol url
+2025-08-09T04:59:36.687Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-08-09T04:59:36.746Z - info: [main] Processing protocol url
+2025-08-09T04:59:38.178Z - info: [ui] [SignInStore] account resolved
+2025-08-09T04:59:38.178Z - info: [ui] [AppStore] adding account sirdich (Nicholas Gerard) to store
+2025-08-09T04:59:38.184Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2025-08-09T04:59:38.208Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-08-09T04:59:38.888Z - info: [ui] Subscribed 'sirdich' to Alive channel
+2025-08-09T04:59:39.565Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-08-09T05:00:46.430Z - info: [ui] [AppStore] adding repository at /home/sirdicholas/dev/sirArch to store
+2025-08-09T05:01:05.227Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T05:01:06.008Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 1.079s)
+2025-08-09T05:01:06.263Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T05:01:07.053Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T05:01:08.402Z - info: [ui] [BranchPruner] No branches to prune.
+2025-08-09T05:18:18.135Z - info: [ui] [BranchPruner] Last prune took place 17 minutes ago - skipping
+2025-08-09T05:22:37.296Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-08-09T05:22:37.298Z - info: [ui] [AppStore] found account: sirdich (Nicholas Gerard)
+2025-08-09T05:22:37.319Z - info: [ui] [BranchPruner] Last prune took place 21 minutes ago - skipping
+2025-08-09T05:22:37.466Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.15.9-arch1-1)
+2025-08-09T05:22:37.467Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-08-09T05:22:37.878Z - info: [ui] Subscribed 'sirdich' to Alive channel
+2025-08-09T05:22:38.101Z - info: [ui] Stats reported.
+2025-08-09T05:32:57.644Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T05:32:58.711Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.087s)
+2025-08-09T05:32:59.692Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T05:33:00.767Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.055s)
+2025-08-09T06:03:43.140Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T06:03:43.689Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.221s)
+2025-08-09T06:03:44.323Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T06:03:44.851Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.161s)
+2025-08-09T06:34:26.736Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T06:34:27.551Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T07:05:10.463Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T07:05:11.565Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.147s)
+2025-08-09T07:05:12.567Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T07:05:13.625Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.059s)
+2025-08-09T07:35:56.999Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T07:35:58.070Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.117s)
+2025-08-09T07:35:59.067Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T07:36:00.117Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.047s)
+2025-08-09T08:06:40.477Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T08:06:41.228Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T08:37:24.410Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T08:37:24.924Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.167s)
+2025-08-09T08:37:25.567Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T08:37:26.121Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.197s)
+2025-08-09T09:08:10.388Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:08:11.486Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.139s)
+2025-08-09T09:08:12.450Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:08:13.513Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.026s)
+2025-08-09T09:22:40.392Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-08-09T09:39:03.469Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:39:04.230Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:43:10.758Z - info: [ui] [Timing] Action 'create commit' for 'sirdich/sirArch' took 0.041s
+2025-08-09T09:43:13.011Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:43:14.015Z - info: [ui] Executing push: git push origin main:main --progress (took 1.695s)
+2025-08-09T09:43:14.657Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:43:15.208Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.192s)
+2025-08-09T09:43:15.837Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T09:43:16.377Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.168s)
+2025-08-09T10:15:00.480Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T10:15:01.030Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.239s)
+2025-08-09T10:15:01.675Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T10:15:02.248Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.217s)
+2025-08-09T10:45:49.022Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T10:45:49.626Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.294s)
+2025-08-09T10:45:50.264Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T10:45:50.822Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.195s)
+2025-08-09T11:08:07.946Z - info: [ui] [Timing] Action 'create commit' for 'sirdich/sirArch' took 0.024s
+2025-08-09T11:08:09.993Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T11:08:10.756Z - info: [ui] Executing push: git push origin main:main --progress (took 1.451s)
+2025-08-09T11:08:11.389Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T11:08:11.925Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.167s)
+2025-08-09T11:08:12.541Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-08-09T11:08:13.048Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.122s)

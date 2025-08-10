@@ -1,0 +1,9 @@
+[default-routes]
+alsa_card.usb-Logitech_G733_Gaming_Headset-00:output:analog-output={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.042877, 0.042877]}
+alsa_card.usb-Logitech_G733_Gaming_Headset-00:profile:output:analog-stereo=["analog-output"]
+bluez_card.F4_9D_8A_09_B8_19:output:headset-hf-output={"mute":false, "channelMap":["MONO"], "channelVolumes":[0.064000]}
+bluez_card.F4_9D_8A_09_B8_19:output:headset-output={"mute":false, "channelMap":["FL", "FR"], "channelVolumes":[0.032770, 0.032770], "latencyOffsetNsec":0}
+bluez_card.F4_9D_8A_09_B8_19:profile:a2dp-sink=["headset-output"]
+bluez_card.F4_9D_8A_09_B8_19:profile:a2dp-sink-sbc=["headset-output"]
+bluez_card.F4_9D_8A_09_B8_19:profile:headset-head-unit=["headset-hf-output"]
+bluez_card.F4_9D_8A_09_B8_19:profile:headset-head-unit-cvsd=["headset-hf-output"]

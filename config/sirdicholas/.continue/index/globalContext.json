@@ -1,0 +1,24 @@
+{
+  "lastSelectedProfileForWorkspace": {
+    ":::personal": "local",
+    "file:///home/sirdicholas/dev/sirLinux:::personal": "local",
+    "file:///home/sirdicholas/dev/sirArch:::personal": "local"
+  },
+  "lastSelectedOrgIdForWorkspace": {
+    "": "personal",
+    "file:///home/sirdicholas/dev/sirLinux": "personal",
+    "file:///home/sirdicholas/dev/sirArch": "personal"
+  },
+  "selectedModelsByProfileId": {
+    "local": {
+      "chat": "deepseek-coder-v2:16b",
+      "edit": "deepseek-coder-v2:16b",
+      "apply": "deepseek-coder-v2:16b",
+      "embed": "Transformers.js (Built-In)",
+      "autocomplete": null,
+      "rerank": null,
+      "summarize": null
+    }
+  },
+  "isSupportedLanceDbCpuTargetForLinux": true
+}

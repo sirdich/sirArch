@@ -1,0 +1,7 @@
+
+mesa
+mesa-utils
+neovim
+fish
+ttf-meslo-nerd
+ttf-nerd-fonts-symbols

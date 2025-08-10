@@ -1,0 +1,8 @@
+[General]
+SystemInstallDate=2025-08-08
+
+[KickerRunnerManager]
+LaunchCounts=6 exec:///usr/bin/codium --enable-features=UseOzonePlatform\\,WaylandWindowDecorations --ozone-platform=wayland,1 exec:///usr/bin/corectrl,1 exec:///opt/zen-browser-bin/zen-bin,6 exec:///opt/Heroic/heroic,2 exec:///usr/bin/fancontrol_gui,1 exec:///usr/bin/meld,12 exec:///usr/bin/net.davidotek.pupgui2,2 exec:///usr/bin/virt-manager,1 exec:///usr/bin/gnome-firmware,1 exec:///usr/bin/systemsettings,1 krunner_systemsettings_kcm_firmware_security,3 exec:///usr/bin/lutris,1 exec:///usr/bin/kvantummanager,2 exec:///usr/bin/github-desktop,1 exec:///usr/bin/steam,4 exec:///usr/bin/bottles,1 exec:///usr/bin/ventoygui,1 exec:///usr/bin/haruna,4 exec:///usr/bin/lact gui,1 exec:///usr/bin/beeper --no-sandbox
+
+[KickerRunnerManager][History]
+6f77a691-3adb-4680-9dc6-cef58e268a3c=mel,virt,scre,comp,miss,git,vsc,vs,vir,fan,coo,core,firm,la,time,gover,hero,lu,pro,lutri,ti,ven,bottle,bot,bottl,lac,beeper,fon,pr,he,steam,kvan,s,zen,ha,times

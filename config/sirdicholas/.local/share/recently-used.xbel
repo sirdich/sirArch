@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+  <bookmark href="file:///home/sirdicholas/Games/heroic/prefix/Rockstar%20Games/pfx/drive_c/Launcher/Launcher.exe" added="2025-08-07T23:46:13.493000Z" modified="2025-08-07T23:51:32.531000Z" visited="2025-08-07T23:51:32.531000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-07T23:51:32.531000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Rockstar-Games-Launcher.exe" added="2025-08-07T23:54:41.223000Z" modified="2025-08-08T10:03:22.996000Z" visited="2025-08-08T10:03:22.996000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-08T10:03:22.996000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Games/Heroic/Prefixes/default/Rockstar%20Launcher/drive_c/Launcher/Launcher.exe" added="2025-08-07T23:55:21.602000Z" modified="2025-08-07T23:55:21.602000Z" visited="2025-08-07T23:55:21.602000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-07T23:55:21.602000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFont-Bold.ttf" added="2025-08-08T00:16:48.533000Z" modified="2025-08-08T00:30:43.529000Z" visited="2025-08-08T00:30:43.529000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.529000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.538000Z" modified="2025-08-08T00:30:43.535000Z" visited="2025-08-08T00:30:43.535000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.535000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFont-Italic.ttf" added="2025-08-08T00:16:48.542000Z" modified="2025-08-08T00:30:43.541000Z" visited="2025-08-08T00:30:43.541000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.541000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFont-Regular.ttf" added="2025-08-08T00:16:48.546000Z" modified="2025-08-08T00:30:43.546000Z" visited="2025-08-08T00:30:43.546000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.546000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.550000Z" modified="2025-08-08T00:30:43.552000Z" visited="2025-08-08T00:30:43.552000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.552000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.554000Z" modified="2025-08-08T00:30:43.557000Z" visited="2025-08-08T00:30:43.557000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.557000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.559000Z" modified="2025-08-08T00:30:43.563000Z" visited="2025-08-08T00:30:43.563000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.563000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.565000Z" modified="2025-08-08T00:30:43.568000Z" visited="2025-08-08T00:30:43.568000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.568000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.569000Z" modified="2025-08-08T00:30:43.574000Z" visited="2025-08-08T00:30:43.574000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.574000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.574000Z" modified="2025-08-08T00:30:43.580000Z" visited="2025-08-08T00:30:43.580000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.580000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:48.580000Z" modified="2025-08-08T00:30:43.586000Z" visited="2025-08-08T00:30:43.586000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.586000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLDZNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:48.585000Z" modified="2025-08-08T00:30:43.593000Z" visited="2025-08-08T00:30:43.593000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.593000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFont-Bold.ttf" added="2025-08-08T00:16:48.591000Z" modified="2025-08-08T00:30:43.598000Z" visited="2025-08-08T00:30:43.598000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.598000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.596000Z" modified="2025-08-08T00:30:43.604000Z" visited="2025-08-08T00:30:43.604000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.604000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFont-Italic.ttf" added="2025-08-08T00:16:48.601000Z" modified="2025-08-08T00:30:43.609000Z" visited="2025-08-08T00:30:43.609000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.609000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFont-Regular.ttf" added="2025-08-08T00:16:48.607000Z" modified="2025-08-08T00:30:43.615000Z" visited="2025-08-08T00:30:43.615000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.615000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.613000Z" modified="2025-08-08T00:30:43.620000Z" visited="2025-08-08T00:30:43.620000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.620000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.619000Z" modified="2025-08-08T00:30:43.626000Z" visited="2025-08-08T00:30:43.626000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.626000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.625000Z" modified="2025-08-08T00:30:43.633000Z" visited="2025-08-08T00:30:43.633000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.633000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.631000Z" modified="2025-08-08T00:30:43.639000Z" visited="2025-08-08T00:30:43.639000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.639000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.637000Z" modified="2025-08-08T00:30:43.646000Z" visited="2025-08-08T00:30:43.646000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.646000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.642000Z" modified="2025-08-08T00:30:43.652000Z" visited="2025-08-08T00:30:43.652000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.652000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:48.648000Z" modified="2025-08-08T00:30:43.659000Z" visited="2025-08-08T00:30:43.659000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.659000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGLNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:48.654000Z" modified="2025-08-08T00:30:43.666000Z" visited="2025-08-08T00:30:43.666000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.666000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFont-Bold.ttf" added="2025-08-08T00:16:48.660000Z" modified="2025-08-08T00:30:43.672000Z" visited="2025-08-08T00:30:43.672000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.672000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.665000Z" modified="2025-08-08T00:30:43.679000Z" visited="2025-08-08T00:30:43.679000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.679000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFont-Italic.ttf" added="2025-08-08T00:16:48.671000Z" modified="2025-08-08T00:30:43.685000Z" visited="2025-08-08T00:30:43.685000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.685000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFont-Regular.ttf" added="2025-08-08T00:16:48.677000Z" modified="2025-08-08T00:30:43.691000Z" visited="2025-08-08T00:30:43.691000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.691000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.684000Z" modified="2025-08-08T00:30:43.698000Z" visited="2025-08-08T00:30:43.698000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.698000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.690000Z" modified="2025-08-08T00:30:43.704000Z" visited="2025-08-08T00:30:43.704000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.704000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.696000Z" modified="2025-08-08T00:30:43.711000Z" visited="2025-08-08T00:30:43.711000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.711000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.702000Z" modified="2025-08-08T00:30:43.717000Z" visited="2025-08-08T00:30:43.717000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.717000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.707000Z" modified="2025-08-08T00:30:43.723000Z" visited="2025-08-08T00:30:43.723000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.723000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.712000Z" modified="2025-08-08T00:30:43.731000Z" visited="2025-08-08T00:30:43.731000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.731000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:48.717000Z" modified="2025-08-08T00:30:43.736000Z" visited="2025-08-08T00:30:43.736000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.736000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMDZNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:48.722000Z" modified="2025-08-08T00:30:43.742000Z" visited="2025-08-08T00:30:43.742000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.742000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFont-Bold.ttf" added="2025-08-08T00:16:48.727000Z" modified="2025-08-08T00:30:43.747000Z" visited="2025-08-08T00:30:43.747000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.747000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.732000Z" modified="2025-08-08T00:30:43.753000Z" visited="2025-08-08T00:30:43.753000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.753000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFont-Italic.ttf" added="2025-08-08T00:16:48.738000Z" modified="2025-08-08T00:30:43.758000Z" visited="2025-08-08T00:30:43.758000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.758000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFont-Regular.ttf" added="2025-08-08T00:16:48.744000Z" modified="2025-08-08T00:30:43.764000Z" visited="2025-08-08T00:30:43.764000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.764000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.750000Z" modified="2025-08-08T00:30:43.769000Z" visited="2025-08-08T00:30:43.769000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.769000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.755000Z" modified="2025-08-08T00:30:43.775000Z" visited="2025-08-08T00:30:43.775000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.775000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.761000Z" modified="2025-08-08T00:30:43.781000Z" visited="2025-08-08T00:30:43.781000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.781000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.766000Z" modified="2025-08-08T00:30:43.787000Z" visited="2025-08-08T00:30:43.787000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.787000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.771000Z" modified="2025-08-08T00:30:43.795000Z" visited="2025-08-08T00:30:43.795000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.795000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.777000Z" modified="2025-08-08T00:30:43.801000Z" visited="2025-08-08T00:30:43.801000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.801000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:48.782000Z" modified="2025-08-08T00:30:43.807000Z" visited="2025-08-08T00:30:43.807000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.807000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGMNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:48.788000Z" modified="2025-08-08T00:30:43.813000Z" visited="2025-08-08T00:30:43.813000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.813000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFont-Bold.ttf" added="2025-08-08T00:16:48.794000Z" modified="2025-08-08T00:30:43.819000Z" visited="2025-08-08T00:30:43.819000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.819000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.800000Z" modified="2025-08-08T00:30:43.826000Z" visited="2025-08-08T00:30:43.826000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.826000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFont-Italic.ttf" added="2025-08-08T00:16:48.807000Z" modified="2025-08-08T00:30:43.832000Z" visited="2025-08-08T00:30:43.832000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.832000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFont-Regular.ttf" added="2025-08-08T00:16:48.813000Z" modified="2025-08-08T00:30:43.838000Z" visited="2025-08-08T00:30:43.838000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.838000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.819000Z" modified="2025-08-08T00:30:43.844000Z" visited="2025-08-08T00:30:43.844000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.844000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.826000Z" modified="2025-08-08T00:30:43.850000Z" visited="2025-08-08T00:30:43.850000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.850000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.832000Z" modified="2025-08-08T00:30:43.856000Z" visited="2025-08-08T00:30:43.856000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.856000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.838000Z" modified="2025-08-08T00:30:43.862000Z" visited="2025-08-08T00:30:43.862000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.862000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.915000Z" modified="2025-08-08T00:30:43.868000Z" visited="2025-08-08T00:30:43.868000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.868000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.921000Z" modified="2025-08-08T00:30:43.874000Z" visited="2025-08-08T00:30:43.874000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.874000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:48.927000Z" modified="2025-08-08T00:30:43.880000Z" visited="2025-08-08T00:30:43.880000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.880000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSDZNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:48.933000Z" modified="2025-08-08T00:30:43.886000Z" visited="2025-08-08T00:30:43.886000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.886000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFont-Bold.ttf" added="2025-08-08T00:16:48.941000Z" modified="2025-08-08T00:30:43.893000Z" visited="2025-08-08T00:30:43.893000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.893000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFont-BoldItalic.ttf" added="2025-08-08T00:16:48.946000Z" modified="2025-08-08T00:30:43.899000Z" visited="2025-08-08T00:30:43.899000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.899000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFont-Italic.ttf" added="2025-08-08T00:16:48.952000Z" modified="2025-08-08T00:30:43.906000Z" visited="2025-08-08T00:30:43.906000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.906000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFont-Regular.ttf" added="2025-08-08T00:16:48.958000Z" modified="2025-08-08T00:30:43.911000Z" visited="2025-08-08T00:30:43.911000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.911000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontMono-Bold.ttf" added="2025-08-08T00:16:48.964000Z" modified="2025-08-08T00:30:43.918000Z" visited="2025-08-08T00:30:43.918000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.918000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontMono-BoldItalic.ttf" added="2025-08-08T00:16:48.971000Z" modified="2025-08-08T00:30:43.924000Z" visited="2025-08-08T00:30:43.924000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.924000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontMono-Italic.ttf" added="2025-08-08T00:16:48.977000Z" modified="2025-08-08T00:30:43.930000Z" visited="2025-08-08T00:30:43.930000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.930000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontMono-Regular.ttf" added="2025-08-08T00:16:48.984000Z" modified="2025-08-08T00:30:43.937000Z" visited="2025-08-08T00:30:43.937000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.937000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontPropo-Bold.ttf" added="2025-08-08T00:16:48.991000Z" modified="2025-08-08T00:30:43.943000Z" visited="2025-08-08T00:30:43.943000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.943000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontPropo-BoldItalic.ttf" added="2025-08-08T00:16:48.997000Z" modified="2025-08-08T00:30:43.949000Z" visited="2025-08-08T00:30:43.949000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.949000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontPropo-Italic.ttf" added="2025-08-08T00:16:49.005000Z" modified="2025-08-08T00:30:43.956000Z" visited="2025-08-08T00:30:43.956000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.956000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/Meslo/MesloLGSNerdFontPropo-Regular.ttf" added="2025-08-08T00:16:49.012000Z" modified="2025-08-08T00:30:43.963000Z" visited="2025-08-08T00:30:43.963000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="systemsettings" exec="systemsettings %f" modified="2025-08-08T00:30:43.963000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Games/Satisfactory%20%5BFitGirl%20Repack%5D/setup.exe" added="2025-08-08T05:39:08.896000Z" modified="2025-08-08T05:54:04.170000Z" visited="2025-08-08T05:54:04.170000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.microsoft.portable-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-08T05:54:04.170000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Games/Heroic/Prefixes/default/Satisfactory/drive_c/Satisfactory/FactoryGameSteam.exe" added="2025-08-08T05:45:26.251000Z" modified="2025-08-08T05:45:26.251000Z" visited="2025-08-08T05:45:26.251000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-08T05:45:26.251000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/linuxmint-22.1-cinnamon-64bit.iso.torrent" added="2025-08-08T08:25:44.671849Z" modified="2025-08-08T08:25:44.671856Z" visited="2025-08-08T08:25:44.671851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bittorrent"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="'zen %u'" modified="2025-08-08T08:25:44.671853Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/cachyos-desktop-linux-250713.torrent" added="2025-08-08T08:27:01.767887Z" modified="2025-08-08T08:27:01.767892Z" visited="2025-08-08T08:27:01.767888Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bittorrent"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="'zen %u'" modified="2025-08-08T08:27:01.767890Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads" added="2025-08-08T08:33:01.319850Z" modified="2025-08-08T08:33:01.319853Z" visited="2025-08-08T08:33:01.319851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="'virt-manager %u'" modified="2025-08-08T08:33:01.319851Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Games/SteamLibrary/steamapps/common/Fallout%204/Fallout4.exe" added="2025-08-08T23:13:23.566000Z" modified="2025-08-08T23:13:23.566000Z" visited="2025-08-08T23:13:23.566000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/lib/xdg-desktop-portal-kde %f" modified="2025-08-08T23:13:23.566000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://platform.openai.com/account/api-keys" added="2025-08-09T04:30:40.256000Z" modified="2025-08-09T04:30:40.256000Z" visited="2025-08-09T04:30:40.256000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="userapp-Zen-4J70A3" exec="/opt/zen-browser-bin/zen %u" modified="2025-08-09T04:30:40.256000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://api.workos.com/user_management/authorize?response_type=code&amp;client_id=client_01J0FW6XN8N2XJAECF7NE0Y65J&amp;redirect_uri=https://hub.continue.dev/auth/vscodium-redirect&amp;state=1b2193bd-6b0b-4cfb-afe6-6501ec77bf49&amp;code_challenge=a4-JGR6MbJiqoAXP1HMbfjIKHyJSn5hijeLCM6qGn8E&amp;code_challenge_method=S256&amp;provider=authkit&amp;screen_hint=sign-in" added="2025-08-09T04:32:11.550000Z" modified="2025-08-09T04:32:11.550000Z" visited="2025-08-09T04:32:11.550000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="userapp-Zen-4J70A3" exec="/opt/zen-browser-bin/zen %u" modified="2025-08-09T04:32:11.550000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://github.com/login/device" added="2025-08-09T04:55:34.556000Z" modified="2025-08-09T04:55:34.556000Z" visited="2025-08-09T04:55:34.556000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="userapp-Zen-4J70A3" exec="/opt/zen-browser-bin/zen %u" modified="2025-08-09T04:55:34.556000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&amp;scope=repo%20user%20workflow&amp;state=f67c8cd2-9185-4d5e-8676-af7b735b4a89" added="2025-08-09T04:59:28.981000Z" modified="2025-08-09T04:59:28.981000Z" visited="2025-08-09T04:59:28.981000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="userapp-Zen-4J70A3" exec="/opt/zen-browser-bin/zen %u" modified="2025-08-09T04:59:28.981000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/xero-layan-git/LICENSE" added="2025-08-09T05:22:15.193000Z" modified="2025-08-09T05:22:15.193000Z" visited="2025-08-09T05:22:15.193000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %u" modified="2025-08-09T05:22:15.193000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/Downloads/common-script.sh" added="2025-08-09T05:29:51.821000Z" modified="2025-08-09T05:29:51.821000Z" visited="2025-08-09T05:29:51.821000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="" exec="dolphin %f" modified="2025-08-09T05:29:51.821000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/dev/sirArch/groups/desktop.txt" added="2025-08-09T10:38:01.021000Z" modified="2025-08-09T22:58:33.510572Z" visited="2025-08-09T10:38:01.021000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %u" modified="2025-08-09T10:38:01.021000Z" count="1"/>
+          <bookmark:application name="Meld" exec="'org.gnome.Meld %u'" modified="2025-08-09T22:58:33.510571Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirdicholas/dev/sirArch/groups/meta.txt" added="2025-08-09T10:38:22.544000Z" modified="2025-08-09T22:58:35.818026Z" visited="2025-08-09T10:38:22.544000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %u" modified="2025-08-09T10:38:22.544000Z" count="1"/>
+          <bookmark:application name="Meld" exec="'org.gnome.Meld %u'" modified="2025-08-09T22:58:35.818024Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  
+  <bookmark href="file:///home/sirdicholas/xero-layan-git/Configs/System/etc/sddm.conf.d/kde_settings.conf" added="2025-08-09T23:33:44.555000Z" modified="2025-08-09T23:34:03.181000Z" visited="2025-08-09T23:34:03.181000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %u" modified="2025-08-09T23:33:44.555000Z" count="1"/>
+        <bookmark:application name="vscodium-wayland" exec="/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland %f" modified="2025-08-09T23:34:03.181000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

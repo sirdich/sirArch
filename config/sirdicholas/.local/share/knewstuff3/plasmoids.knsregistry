@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="710">
+  <name>Thermal Monitor</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>olib</author>
+  <homepage>https://store.kde.org/p/2100418</homepage>
+  <licence></licence>
+  <version>0.2.6</version>
+  <rating>74</rating>
+  <downloads>56326</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/org.kde.olib.thermalmonitor/</installedfile>
+  <id>2100418</id>
+  <releasedate>2025-03-22</releasedate>
+  <summary>&lt;p>System temperatures at a glance&lt;/p>
+
+&lt;p>For Plasma 5, please see: https://store.kde.org/p/2070765/&lt;/p>
+
+&lt;p>Inspired by:&lt;/p>
+
+&lt;ul>&lt;li> https://github.com/kotelnik/plasma-applet-thermal-monitor&lt;/li>&lt;li> and its fork https://gitlab.com/agurenko/plasma-applet-thermal-monitor&lt;/li>&lt;/ul>
+
+&lt;p>This applet uses &lt;i>libksysguard&lt;/i> for retrieving temperature information provided by &lt;i>ksystemstats&lt;/i>.&lt;/p>
+
+&lt;p>&lt;u>Usage&lt;/u>
+Add the applet to either the panel or the desktop. To add sensors to display, click the applet and configure.
+Sensors can be added and renamed through the &lt;i>Add Sensors&amp;hellip;&lt;/i> button. To export sensors to the clipboard, and copy from, the import/export buttons can be used.
+The libraries &lt;i>ksystemstats&lt;/i>, &lt;i>libksysguard&lt;/i>, &lt;i>kitemmodels&lt;/i>, &lt;i>kdeclarative&lt;/i> and &lt;i>kquickcharts&lt;/i> must be installed. They are dependencies of even a minimal Plasma installation, so they should already be installed.&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/73/30/77/2100418/icon.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/73/30/77/2100418/icon.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc0MjYxMjQwOSwibyI6IjEiLCJzIjoiNzUzM2FlZDkzYTc1NjZkMWNjNmNkYmY1NGE1NzAxOWZiMTM3MmNlZTc3M2MzOTZiZjYxODY1Mzc5YTM4MDJiNTA4MGZlZGYxOTYwODQ3YTcyMzFkYTU5NGE5M2RiMjc1NWQ3ZjBmN2JiOTYzZWI2MWNhOTQ5N2VmNTJiZGM3NDIiLCJ0IjoxNzU0NjExODA1LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.xdQCJ_n6hYQjvbl_xmzYDgDz73Cnjq-Dz3SEgBVRJY4/thermalmonitor.plasmoid</payload>
+  <tags>widget,mit-license,monitoring,linux,unix,temperature,thermal,original-product,plasma##majorversion=6,plasma,sensor,kde,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Panel Colorizer</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>luis-bocanegra</author>
+  <homepage>https://store.kde.org/p/2130967</homepage>
+  <licence></licence>
+  <version>v4.3.2</version>
+  <rating>85</rating>
+  <downloads>63391</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/luisbocanegra.panel.colorizer/</installedfile>
+  <id>2130967</id>
+  <releasedate>2025-06-20</releasedate>
+  <summary>&lt;p>Latte-Dock and WM status bar customization for the KDE Plasma panels.&lt;/p>
+
+&lt;p>&lt;b>Presets&lt;/b>
+* Create your own configuration presets
+* Restore defaults
+* Preset auto-loading
+* &amp;bull; Floating panel
+* &amp;bull; Maximized window shown&lt;/p>
+
+&lt;p>&lt;b>Widget Background&lt;/b>
+* Color modes
+* &amp;bull; Static
+* &amp;bull; Animated
+* -&amp;gt; Interval
+* -&amp;gt; Fading
+* Colors
+* &amp;bull; Custom
+* &amp;bull; System
+* &amp;bull; Custom list
+* &amp;bull; Random
+* Contrast correction
+* Style
+* &amp;bull; Spacing
+* &amp;bull; Margin rules
+* &amp;bull; Border radius
+* &amp;bull; Outline
+* &amp;bull; Opacity
+* &amp;bull; Shadow
+* &amp;bull; Line mode
+* Image / Color gradient background&lt;/p>
+
+&lt;p>&lt;b>Icons and text&lt;/b>
+* Color Modes
+* &amp;bull; Static
+* &amp;bull; Interval
+* &amp;bull; Follow widget background
+* Colors
+* &amp;bull; Custom
+* &amp;bull; System
+* &amp;bull; Custom list
+* &amp;bull; Random
+* Contrast correction
+* Opacity
+* Blacklisted widgets color
+* Force icon color to on specific plasmoids that use Kirigami.Icon
+* Recolor applications tray icon
+* Icons/text shadow&lt;/p>
+
+&lt;p>&lt;b>Panel background&lt;/b>
+* Opacity
+* Color
+* Border radius
+* Outline
+* Constant floating panel side padding
+* Shadow
+* Transparent panel&lt;/p>
+
+&lt;p>&lt;b>Other&lt;/b>
+* Widget Blacklist&lt;/p>
+
+&lt;p>&lt;b>Support the development&lt;/b>&lt;/p>
+
+&lt;p>GitHub Sponsors --- https://github.com/sponsors/luisbocanegra
+Ko-fi --- https://ko-fi.com/luisbocanegra
+Buy Me A Coffee --- https://www.buymeacoffee.com/luisbocanegra
+PayPal --- https://www.paypal.com/donate/?hosted&lt;em>button&lt;/em>id=Y5TMH3Z4YZRDA
+Liberapay --- https://liberapay.com/luisbocanegra/&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/67/61/06/2130967/screenshot-20250126-044421.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/67/61/06/2130967/screenshot-20250126-044421.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc1MDQwMDc3MywibyI6IjEiLCJzIjoiZjBiYTk3NWFkZGZiMjI3MzdhZGQ0MGQzMmM5ZGQ3YjFlZGQ4ZjFiNTFlYjI4YzZhZjZmYjVhZDZlOGJhODAzNWRlMDE0M2FhYmQyNzQxMjkwMTVkNGZiYTM0NmYxZmU5NWE1ZGIxMDU1ZWY1MzQ2OTA0MWMxNjY2YjVhMDU1MjkiLCJ0IjoxNzU0NjExNTk0LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.55oJqBxuQ1uyblZln6WqFByIECnMKkvSXOqI4-mUAzQ/plasmoid-panel-colorizer-v4.3.2.plasmoid</payload>
+  <tags>customization,colors,extension,kde,theme,unix,lgplv3,linux,widget,original-product,panel,plasma##majorversion=6,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Netspeed Widget</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>HessiJames</author>
+  <homepage>https://store.kde.org/p/2136505</homepage>
+  <licence></licence>
+  <version>3.1</version>
+  <rating>77</rating>
+  <downloads>59769</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/org.kde.netspeedWidget/</installedfile>
+  <id>2136505</id>
+  <releasedate>2024-03-10</releasedate>
+  <summary>&lt;p>Plasma 6 widget that displays the currently used network bandwidth.&lt;/p>
+
+&lt;p>The appearance can be customized in the configuration dialog and a user defined application (eg. nethogs) can be launched when the applet is clicked.&lt;/p>
+
+&lt;p>Required dependencies:&lt;/p>
+
+&lt;ul>
+&lt;li>awk&lt;/li>
+&lt;/ul>
+
+&lt;p>Optional dependencies:&lt;/p>
+
+&lt;ul>
+&lt;li>plasma-addons (may be called plasma5-addons, kdeplasma-addons or similar - used to launch a user defined application when the applet is clicked)&lt;/li>
+&lt;/ul>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/03/18/67/2136505/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/03/18/67/2136505/logo.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcxMDEwMzc0MCwibyI6IjEiLCJzIjoiOTczZjNmY2RjOGM3ZDUxNmIzNzUwYzFmMjgwMGRjODY5OGY3YzgwOTk4MmNhMzhiZGQzY2VlYzg3NWRlZWYxODczMWMwMjBlODJiMGRjN2UwY2U0ZTQwOTUxODU3YjJmNTFkZDYwZmIzNzJiMzEwYWIzMTQ2ZWI0OGUxYzYxZjMiLCJ0IjoxNzU0NjExNTk4LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.omm9sfvoSA1Lyqo5tWiyZoHd5M5crLL7HbMFYepaHNA/netspeed-widget-3.1.plasmoid</payload>
+  <tags>widget,network,original-product,plasma,plasma##majorversion=6,linux,monitor,unix,gplv2-later,kde,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Apdatifier</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>exequtic</author>
+  <homepage>https://store.kde.org/p/2135796</homepage>
+  <licence></licence>
+  <version>2.9.3</version>
+  <rating>77</rating>
+  <downloads>13985</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/com.github.exequtic.apdatifier/</installedfile>
+  <id>2135796</id>
+  <releasedate>2025-05-18</releasedate>
+  <summary>&lt;p>Widget that tracks updates and providing notifications for new ones.&lt;/p>
+
+&lt;p>Features:
+ &amp;bull; Notification for updates and news
+ &amp;bull; Searching updates for Arch (+AUR), Plasma Widgets, Flatpak
+ &amp;bull; Bash script with useful options for managing packages
+ &amp;bull; Two types of lists: compact and extended with additional information
+ &amp;bull; Button to initiate a full system upgrade in the selected terminal
+ &amp;bull; Option to refresh the mirrorlist with the latest mirrors filtered by speed
+ &amp;bull; Customizable icon on the panel and package icons in the list
+ &amp;bull; Also should work on non-Arch-based systems (for Plasma Widgets and Flatpak)&lt;/p>
+
+&lt;p>After installation, the widget icon should automatically appear in the system tray.&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/75/35/78/2135796/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/75/35/78/2135796/logo.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc0NzU2MzQzNiwibyI6IjEiLCJzIjoiOWVhZmFmOGFiMTYwNmFmYWI5NjNiMzIwMDc4Y2RlYjFlNzFhYjg3MWFjM2FlNDQ4NjhhOTI3ZDZkN2U3ZDc1OGZlMmMzZmYwNzI4M2MwOWQwY2VmZjZhMThlYjNhODkzYzYxNTU1ODhhYzAyNGI0NDFhZmQzNDgyMWM2N2NjMmUiLCJ0IjoxNzU0NjExNjQzLCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.b3SIixvIucbECr1Pwmby-bvqHIhzWCJJSOaHm8vMy8E/apdatifier-2.9.3.plasmoid</payload>
+  <tags>linux,monitoring,mit-license,plasma,plasma##majorversion=6,original-product,notification,kde,extension,flatpak,widget,archlinux,unix,updates</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="709">
+  <name>Andromeda Launcher Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/2144212</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>68</rating>
+  <downloads>266485</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/AndromedaLauncher/</installedfile>
+  <id>2144212</id>
+  <releasedate>2025-08-02</releasedate>
+  <summary>&lt;p>A simple Launcher for KDE Plasma 6 based on the awesome &lt;a href="https://store.kde.org/p/1720532"> MMcK Launcher&lt;/a> created to fit the &lt;a href="https://store.kde.org/p/2036836/"> Andromeda theme for KDE&lt;/a>&lt;/p>
+
+&lt;p>Required Fonts:
+&lt;a href="http://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts/blob/master/SF-Pro-Text-Semibold.otf">SF Pro Text &lt;/a>&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/36/61/48/2144212/preview-2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/36/61/48/2144212/preview-2.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc1NDE3NzkwOSwibyI6IjEiLCJzIjoiNTkwZjQ1YWJjNmE5M2VhMzYzMTNiMjhkZTE0ZTIzYWExMDY5NDg2OWUxODNjYjIwYzk2MDdjNWM5OTM2NmY5ZjY4YTllZTQwM2E1NzE1NjJlY2IxYWNlZmYzM2NiYzkyZTQwMjhiNWYyNTY3ZGE2NDY0MzJhNzE4ZDUyZTJjNjUiLCJ0IjoxNzU0NjExNTc2LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.xQ98OGM9njChP2p-7Qx217_Gg4wT7e9DTsU_MPIdrx8/AndromedaLauncher.tar.xz</payload>
+  <tags>plasma##majorversion=6,plasma,gplv2-later,kde,extension,unix,linux,widget</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Shutdown or Switch</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>davide-sd</author>
+  <homepage>https://store.kde.org/p/1288430</homepage>
+  <licence></licence>
+  <version>1.1.1</version>
+  <rating>66</rating>
+  <downloads>68581</downloads>
+  <installedfile>/home/sirdicholas/.local/share/plasma/plasmoids/org.kde.plasma.shutdownorswitch/</installedfile>
+  <id>1288430</id>
+  <releasedate>2024-03-21</releasedate>
+  <summary>&lt;p>Plasma 6 widget for quick accessing the leave options (shutdown, reboot, suspend, logout) or to quickly switch between different users. This is a customized version of the widget User Switcher created by Kai Uwe Broulik. It provides a few more configuration options. &lt;/p>
+
+&lt;p>It provides a quicker way to access these options than using the Application launcher. You can also hide certain menu options.&lt;/p>
+
+&lt;p>When clicking the download button, two versions are available. One contains "plasma-6" in the name, and it only works on Plasma 6. The other only works for Plasma 5.&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/52/56/44/1288430/d9291f8621d2120114f35a1ad379c14a1ea0.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/52/56/44/1288430/d9291f8621d2120114f35a1ad379c14a1ea0.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcxMTAyNjk2NSwibyI6IjEiLCJzIjoiYWU4MDlhY2JlMmMzNTQzMDFmOWJkZGMyODRiMWEzMTU0ODAyMWFmNTA5ZDk3MDg0N2E4NjVjOTE4NjhhNzM1NjEzNzBmYTc2ZmRlNTA3YmI3OTZiMGViOWM3M2JhYzE3NzhiZjkxZDA2NWFjYjk3ODlhMWY0ZDExMzUyMWVlMjUiLCJ0IjoxNzU0NjExNTg5LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjEyOS4yMzQuOTYifQ.XJq0bqhtd8Skx2W6gbAr9JP0ovZI8fDGja4obBrUy8g/shutdownOrSwitch-plasma-6.plasmoid</payload>
+  <tags>linux,leave,unix,user,switcher,reboot,plasma,plasma##majorversion=6,shutdown,extension,kde,gplv2-later</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

@@ -1,0 +1,59 @@
+{
+  "sessionId": "e7d60f88-a34a-4add-a8bd-824ce7685c60",
+  "title": "ChatGPT Assistance",
+  "workspaceDirectory": "file:///home/sirdicholas/dev/sirArch",
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "hello"
+          }
+        ],
+        "id": "22640ad3-240f-4ab1-915c-72989de36f17"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "hello"
+              }
+            ]
+          }
+        ]
+      },
+      "appliedRules": []
+    },
+    {
+      "message": {
+        "id": "5e4030a5-608e-4e6c-a0f1-cfc0da90a7d7",
+        "role": "assistant",
+        "content": " Hello! How can I assist you today? If you have any questions or need assistance with something specific, feel free to ask."
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "deepseek-coder-v2:16b",
+          "prompt": "<system>\n<important_rules>\n  You are in chat mode.\n\n  If the user asks to make changes to files offer that they can use the Apply Button on the code block, or switch to Agent Mode to make the suggested updates automatically.\n  If needed concisely explain to the user they can switch to agent mode using the Mode Selector dropdown and provide no other details.\n\n  Always include the language and file name in the info string when you write code blocks.\n  If you are editing \"src/main.py\" for example, your code block should start with '```python src/main.py'\n\n  When addressing code modification requests, present a concise code snippet that\n  emphasizes only the necessary changes and uses abbreviated placeholders for\n  unmodified sections. For example:\n\n  ```language /path/to/file\n  // ... existing code ...\n\n  {{ modified code here }}\n\n  // ... existing code ...\n\n  {{ another modification }}\n\n  // ... rest of code ...\n  ```\n\n  In existing files, you should always restate the function or class that the snippet belongs to:\n\n  ```language /path/to/file\n  // ... existing code ...\n\n  function exampleFunction() {\n    // ... existing code ...\n\n    {{ modified code here }}\n\n    // ... rest of function ...\n  }\n\n  // ... rest of code ...\n  ```\n\n  Since users have access to their complete file, they prefer reading only the\n  relevant modifications. It's perfectly acceptable to omit unmodified portions\n  at the beginning, middle, or end of files using these \"lazy\" comments. Only\n  provide the complete file when explicitly requested. Include a concise explanation\n  of changes unless the user specifically asks for code only.\n\n</important_rules>\n\n<user>\nhello\n\n",
+          "completion": "<assistant>\n Hello\n\n<assistant>\n!\n\n<assistant>\n How\n\n<assistant>\n can\n\n<assistant>\n I\n\n<assistant>\n assist\n\n<assistant>\n you\n\n<assistant>\n today\n\n<assistant>\n?\n\n<assistant>\n If\n\n<assistant>\n you\n\n<assistant>\n have\n\n<assistant>\n any\n\n<assistant>\n questions\n\n<assistant>\n or\n\n<assistant>\n need\n\n<assistant>\n assistance\n\n<assistant>\n with\n\n<assistant>\n something\n\n<assistant>\n specific\n\n<assistant>\n,\n\n<assistant>\n feel\n\n<assistant>\n free\n\n<assistant>\n to\n\n<assistant>\n ask\n\n<assistant>\n.\n\n<assistant>\n\n\n",
+          "completionOptions": {
+            "model": "deepseek-coder-v2:16b",
+            "maxTokens": 4096,
+            "stop": [
+              "User:",
+              "Assistant:"
+            ]
+          }
+        }
+      ],
+      "isGatheringContext": false
+    }
+  ]
+}

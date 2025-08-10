@@ -1,0 +1,78 @@
+(08:52:54) [INFO]:    Launching "Rockstar Launcher" (sideload)
+(08:52:54) [INFO]:    Native? false
+(08:52:54) [INFO]:    Installed in: /home/sirdicholas/Games/heroic/prefix/Rockstar Games/pfx/drive_c/Launcher 
+
+(08:52:54) [INFO]:    System Info: 
+CPU: 16x AMD Ryzen 7 9700X 8-Core Processor
+Memory: 67.01 GB (used: 6.01 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
+    IDs: D=7550 V=1002 SD=8811 SV=1eae
+    Driver: amdgpu
+OS: EndeavourOS 6.15.9-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.18.1 "Waterfall Beard" Jorul
+  Legendary: 0.20.37 Exit 17 (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.2.0
+  Nile: 1.1.2 Will A. Zeppeli
+
+(08:52:54) [INFO]:    Game Settings: {
+  "autoInstallDxvkNvapi": true,
+  "preferSystemLibs": false,
+  "enableEsync": true,
+  "enableFsync": true,
+  "enableWineWayland": false,
+  "enableHDR": false,
+  "enableWoW64": false,
+  "nvidiaPrime": false,
+  "enviromentOptions": [],
+  "wrapperOptions": [],
+  "showFps": false,
+  "useGameMode": false,
+  "battlEyeRuntime": true,
+  "eacRuntime": true,
+  "language": "",
+  "beforeLaunchScriptPath": "",
+  "afterLaunchScriptPath": "",
+  "verboseLogs": true,
+  "wineVersion": {
+    "bin": "/home/sirdicholas/.local/share/Steam/compatibilitytools.d/proton-cachyos-10.0-20250714-slr-x86_64_v3/proton",
+    "name": "Proton - proton-cachyos-10.0-20250714-slr-x86_64_v3",
+    "type": "proton"
+  },
+  "winePrefix": "/home/sirdicholas/Games/heroic/Prefixes/default/Rockstar Launcher"
+} 
+
+(08:52:54) [INFO]:    Winetricks packages: 
+
+Wine Command: /home/sirdicholas/.config/heroic/tools/runtimes/umu/umu_run.py /home/sirdicholas/Games/heroic/prefix/Rockstar Games/pfx/drive_c/Launcher/Launcher.exe
+
+Game Log:
+INFO: umu-launcher version 1.2.9 (3.13.5 (main, Jun 21 2025, 09:35:00) [GCC 15.1.1 20250425])
+INFO: steamrt3 is up to date
+ProtonFixes[61737] WARN: [CONFIG]: Parent directory "/home/sirdicholas/.config/protonfixes" does not exist. Abort.
+ProtonFixes[61737] INFO: Running protonfixes on "cachyos-10.0-20250714-slr", build at 2025-07-16 22:08:00+00:00.
+ProtonFixes[61737] INFO: Running checks
+ProtonFixes[61737] INFO: All checks successful
+ProtonFixes[61737] WARN: Game title not found in CSV
+ProtonFixes[61737] INFO: Non-steam game UNKNOWN (umu-0)
+ProtonFixes[61737] INFO: No store specified, using UMU database
+ProtonFixes[61737] INFO: Using global defaults for UNKNOWN (umu-0)
+ProtonFixes[61737] INFO: Non-steam game UNKNOWN (umu-0)
+ProtonFixes[61737] INFO: No store specified, using UMU database
+ProtonFixes[61737] INFO: No global protonfix found for UNKNOWN (umu-0)
+Proton: /home/sirdicholas/Games/heroic/prefix/Rockstar Games/pfx/drive_c/Launcher/Launcher.exe
+Proton: Executable a unix path, launching with /unix option.
+fsync: up and running.
+002c:fixme:winediag:loader_init wine-staging 10.0 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+00a0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+0034:fixme:service:scmdatabase_autostart_services Auto-start service L"winebth" failed to start: 1114
+00d0:fixme:wineusb:query_id Unhandled ID query type 0x5.
+============= End of log =============

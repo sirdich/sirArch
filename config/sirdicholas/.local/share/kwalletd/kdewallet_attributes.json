@@ -1,0 +1,25 @@
+{
+    "$fdo_created": "1754711378",
+    "$fdo_modified": "1754715578",
+    "Chromium Keys/Chromium Safe Storage": {
+        "$fdo_created": "1754713951",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1754713951",
+        "attributes": {
+            "server": "Chromium Keys",
+            "type": "plaintext",
+            "user": "Chromium Safe Storage",
+            "xdg:schema": "org.qt.keychain"
+        }
+    },
+    "GitHub - https://api.github.com/sirdich": {
+        "$fdo_created": "1754715578",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1754715578",
+        "attributes": {
+            "account": "sirdich",
+            "service": "GitHub - https://api.github.com",
+            "xdg:schema": "org.freedesktop.Secret.Generic"
+        }
+    }
+}

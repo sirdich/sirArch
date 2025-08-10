@@ -1,0 +1,573 @@
+(09:06:31) [INFO]:    Launching "Fallout 4: Game of the Year Edition" (gog)
+(09:06:31) [INFO]:    Native? false
+(09:06:31) [INFO]:    Installed in: /home/sirdicholas/Games/Heroic/Fallout 4 GOTY 
+
+(09:06:31) [INFO]:    System Info: 
+CPU: 16x AMD Ryzen 7 9700X 8-Core Processor
+Memory: 67.01 GB (used: 7.84 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
+    IDs: D=7550 V=1002 SD=8811 SV=1eae
+    Driver: amdgpu
+OS: EndeavourOS 6.15.9-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.18.1 "Waterfall Beard" Jorul
+  Legendary: 0.20.37 Exit 17 (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.2.0
+  Nile: 1.1.2 Will A. Zeppeli
+
+(09:06:31) [INFO]:    Game Settings: {
+  "autoInstallDxvkNvapi": true,
+  "preferSystemLibs": false,
+  "enableEsync": true,
+  "enableFsync": true,
+  "enableWineWayland": false,
+  "enableHDR": false,
+  "enableWoW64": false,
+  "nvidiaPrime": false,
+  "enviromentOptions": [],
+  "wrapperOptions": [],
+  "showFps": false,
+  "useGameMode": false,
+  "battlEyeRuntime": true,
+  "eacRuntime": true,
+  "language": "",
+  "beforeLaunchScriptPath": "",
+  "afterLaunchScriptPath": "",
+  "verboseLogs": true,
+  "wineVersion": {
+    "bin": "/usr/share/steam/compatibilitytools.d/proton-ge-custom/proton",
+    "name": "Proton - proton-ge-custom",
+    "type": "proton"
+  },
+  "winePrefix": "/home/sirdicholas/Games/Heroic/Prefixes/default/Fallout 4 Game of the Year Edition"
+} 
+
+(09:06:31) [INFO]:    Winetricks packages: 
+
+(09:06:36) [INFO]:    Launching Fallout 4: Game of the Year Edition: HEROIC_APP_NAME=1998527297 HEROIC_APP_RUNNER=gog GAMEID=umu-377160 HEROIC_APP_SOURCE=gog STORE=gog STEAM_COMPAT_INSTALL_PATH="/home/sirdicholas/Games/Heroic/Fallout 4 GOTY" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/sirdicholas/.steam/steam WINEPREFIX="/home/sirdicholas/Games/Heroic/Prefixes/default/Fallout 4 Game of the Year Edition" STEAM_COMPAT_DATA_PATH="/home/sirdicholas/Games/Heroic/Prefixes/default/Fallout 4 Game of the Year Edition" PROTONPATH=/usr/share/steam/compatibilitytools.d/proton-ge-custom WINE_FULLSCREEN_FSR=0 PROTON_ENABLE_NVAPI=1 DXVK_NVAPI_ALLOW_OTHER_DRIVERS=1 PROTON_EAC_RUNTIME=/home/sirdicholas/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/sirdicholas/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId="heroic-Fallout 4 GOTY" PROTON_LOG_DIR=/home/sirdicholas WINEDEBUG=+fixme DXVK_LOG_LEVEL=info VKD3D_DEBUG=fixme GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json launch "/home/sirdicholas/Games/Heroic/Fallout 4 GOTY" 1998527297 --no-wine --wrapper "/home/sirdicholas/.config/heroic/tools/runtimes/umu/umu_run.py" --platform windows 
+
+(09:06:36) [INFO]:    Game Output:
+INFO: umu-launcher version 1.2.9 (3.13.5 (main, Jun 21 2025, 09:35:00) [GCC 15.1.1 20250425])
+INFO: steamrt3 is up to date
+pressure-vessel-wrap[67890]: W: Not sharing path STEAM_COMPAT_MOUNTS="...:/usr/share/steam/compatibilitytools.d/proton-ge-custom:..." with container because "/usr" is reserved by the container framework
+ProtonFixes[67993] WARN: [CONFIG]: Parent directory "/home/sirdicholas/.config/protonfixes" does not exist. Abort.
+ProtonFixes[67993] INFO: Running protonfixes on "GE-Proton10-10", build at 2025-07-19 04:57:28+00:00.
+ProtonFixes[67993] INFO: Running checks
+ProtonFixes[67993] INFO: All checks successful
+ProtonFixes[67993] INFO: Non-steam game Fallout 4 (umu-377160)
+ProtonFixes[67993] INFO: GOG store specified, using GOG database
+ProtonFixes[67993] INFO: No global defaults found for Fallout 4 (umu-377160)
+ProtonFixes[67993] INFO: Non-steam game Fallout 4 (umu-377160)
+ProtonFixes[67993] INFO: GOG store specified, using GOG database
+ProtonFixes[67993] INFO: No global protonfix found for Fallout 4 (umu-377160)
+Proton: /home/sirdicholas/Games/Heroic/Fallout 4 GOTY/Fallout4Launcher.exe
+Proton: Executable a unix path, launching with /unix option.
+wineserver: NTSync up and running!
+002c:fixme:winediag:loader_init wine-staging 10.0 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+00a0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+0034:fixme:service:scmdatabase_autostart_services Auto-start service L"winebth" failed to start: 1114
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\Z:\\run\\host\\usr\\share\\steam\\compatibilitytools.d\\proton-ge-custom\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\Z:\\run\\host\\usr\\share\\steam\\compatibilitytools.d\\proton-ge-custom\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\Z:\\run\\host\\usr\\share\\steam\\compatibilitytools.d\\proton-ge-custom\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\Z:\\run\\host\\usr\\share\\steam\\compatibilitytools.d\\proton-ge-custom\\files\\share\\wine/../xalia/xalia.exe"
+00d8:fixme:ver:GetCurrentPackageId (000000000011F470 0000000000000000): stub
+00d8:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
+00d8:fixme:toolhelp:Heap32ListFirst : stub
+00d8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0130:fixme:ver:GetCurrentPackageId (000000000138FF50 0000000000000000): stub
+0120:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0120:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0120:fixme:uiautomation:default_uia_provider_callback Default ProviderType_NonClientArea provider unimplemented.
+0120:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0120:fixme:uiautomation:base_hwnd_fragment_get_FragmentRoot 000000000081B2B8, 000000000021F9D0: stub!
+0120:fixme:uiautomation:base_hwnd_fragment_GetEmbeddedFragmentRoots 000000000081B2B8, 000000000021F9E0: stub!
+0128:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0128:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0128:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0164:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0164:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0128:fixme:combase:RoGetActivationFactory (L"Windows.Gaming.Input.RawGameController", {eb8d0792-e95a-4b19-afc7-0a59f8bf759e}, 00006FFFFC638960): semi-stub
+0128:fixme:input:raw_controller_2_get_DisplayName iface 00000000034DD2B8, value 000000000011F400 stub!
+0128:fixme:input:raw_controller_2_get_DisplayName iface 00000000034DD3F8, value 000000000011F400 stub!
+0168:fixme:secur32:get_cipher_algid unknown algorithm 23
+0168:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+016c:fixme:secur32:get_cipher_algid unknown algorithm 23
+016c:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+info:  Game: Fallout4Launcher.exe
+info:  DXVK: v2.7-5-g35aa75e68af0927
+info:  Build: x86_64 gcc 10.3.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffbf8e540
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+00d8:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+0170:fixme:secur32:get_cipher_algid unknown algorithm 23
+0170:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+info:  Found device: AMD Radeon RX 9070 XT (RADV GFX1201) (radv 25.1.7)
+00d8:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Process set as DPI aware
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+info:  Game: Fallout4Launcher.exe
+info:  DXVK: v2.7-5-g35aa75e68af0927
+info:  Build: x86_64 gcc 10.3.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffbf8e540
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+00d8:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+info:  Found device: AMD Radeon RX 9070 XT (RADV GFX1201) (radv 25.1.7)
+00d8:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Process set as DPI aware
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083F6F0, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000841080, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000833D70, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000841080, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000833D70, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"msctls_trackbar32"
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083F6F0, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000833D70, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083F6F0, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"ComboBox"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083D390, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000833D70, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"SysTabControl32"
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0138:fixme:oleacc:find_class_data unhandled window class: L"msctls_trackbar32"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083F6F0, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000833D70, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083D390, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083BFD0, 10002, 000000000192F8A0: stub
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Static"
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0138:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0138:fixme:oleacc:find_class_data unhandled window class: L"Static"
+0138:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0138:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000083F6F0, 10002, 000000000192F8A0: stub
+02f0:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+02f0:fixme:ver:GetCurrentPackageId (000000000011FA90 0000000000000000): stub
+02f0:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
+02f0:fixme:toolhelp:Heap32ListFirst : stub
+02f4:fixme:ver:GetCurrentPackageId (000000006613FF50 0000000000000000): stub
+0304:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0304:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0308:fixme:secur32:get_cipher_algid unknown algorithm 23
+0308:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+030c:fixme:secur32:get_cipher_algid unknown algorithm 23
+030c:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0310:fixme:secur32:get_cipher_algid unknown algorithm 23
+0310:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+info:  Game: Fallout4.exe
+info:  DXVK: v2.7-5-g35aa75e68af0927
+info:  Build: x86_64 gcc 10.3.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffd0fe540
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+02f0:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+info:  Found device: AMD Radeon RX 9070 XT (RADV GFX1201) (radv 25.1.7)
+02f0:err:openxr:get_vulkan_extensions Could not create key, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Creating device:
+info:  AMD Radeon RX 9070 XT (RADV GFX1201):
+info:    Driver   : radv 25.1.7
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 31.20 GiB
+info:    Budget: 31.0 GiB
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  5: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:      Type  6: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:      Type  8: HOST_VISIBLE | HOST_COHERENT | DEVICE_COHERENT | DEVICE_UNCACHED
+info:      Type 10: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED | DEVICE_COHERENT | DEVICE_UNCACHED
+info:    Heap 1: 15.92 GiB (DEVICE_LOCAL)
+info:    Budget: 13.38 GiB
+info:      Type  0: DEVICE_LOCAL
+info:      Type  1: DEVICE_LOCAL
+info:      Type  3: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:      Type  7: DEVICE_LOCAL | DEVICE_COHERENT | DEVICE_UNCACHED
+info:      Type  9: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT | DEVICE_COHERENT | DEVICE_UNCACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_hdr_metadata
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_shader_stencil_export
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 0
+info:    sparseResidency4Samples        : 0
+info:    sparseResidency8Samples        : 0
+info:    sparseResidency16Samples       : 0
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 1
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 1
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 0
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 1
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 0
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 0
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 0
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 0
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 16
+info:    Uniform buffer       : 16
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 64
+info:    Storage image        : 32
+info:  Memory type mask for sparse resources: 0x7ad
+info:  Memory type mask for buffer resources: 0x7ad, usage: 0x219ff
+info:  Creating sampler descriptor heap (32 kB)
+info:  DXVK: Graphics pipeline libraries supported
+info:  DXGI: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Creating resource descriptor heap (8192 kB)
+warn:  D3D11DXGIDevice::QueryInterface: Unknown interface query
+warn:  0ec870a6-5d7e-4c22-8cfc-5baae07616ed
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+info:  DXVK: Using 16 compiler threads
+info:  Setting display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: yes)
+info:    Buffer size:  2560x1440
+info:    Image count:  4
+03a0:fixme:mmdevapi:control_RegisterAudioSessionNotification (00000000006259A0)->(0000000066E687C8) - stub
+03a8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Audio",000000007816FE34): stub
+03a8:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(1) stub
+02f0:fixme:thread:NtSetInformationThread ThreadIdealProcessor stub!
+02f0:fixme:thread:NtSetInformationThread ThreadIdealProcessor stub!
+info:  Detected frame rate (~330) higher than selected refresh rate of ~55 Hz.
+info:  Engaging frame rate limiter.
+info:  Setting timer interval to 1000 us
+02f0:fixme:thread:NtSetInformationThread ThreadIdealProcessor stub!
+0448:fixme:winhttp:set_option unimplemented option 84
+02f0:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+0450:fixme:winhttp:set_option unimplemented option 84
+0454:fixme:winhttp:set_option unimplemented option 84
+0448:fixme:winhttp:set_option unimplemented option 84
+045c:fixme:winhttp:set_option unimplemented option 84
+0450:fixme:winhttp:set_option unimplemented option 84
+045c:fixme:winhttp:set_option unimplemented option 84
+0454:fixme:winhttp:set_option unimplemented option 84
+0448:fixme:winhttp:set_option unimplemented option 84
+0458:fixme:winhttp:set_option unimplemented option 84
+044c:fixme:winhttp:set_option unimplemented option 84
+0450:fixme:winhttp:set_option unimplemented option 84
+045c:fixme:winhttp:set_option unimplemented option 84
+0454:fixme:winhttp:set_option unimplemented option 84
+0448:fixme:winhttp:set_option unimplemented option 84
+0458:fixme:winhttp:set_option unimplemented option 84
+044c:fixme:winhttp:set_option unimplemented option 84
+0450:fixme:winhttp:set_option unimplemented option 84
+044c:fixme:winhttp:set_option unimplemented option 84
+0454:fixme:winhttp:set_option unimplemented option 84
+0448:fixme:winhttp:set_option unimplemented option 84
+0458:fixme:winhttp:set_option unimplemented option 84
+045c:fixme:winhttp:set_option unimplemented option 84
+0450:fixme:winhttp:set_option unimplemented option 84
+044c:fixme:winhttp:set_option unimplemented option 84
+0454:fixme:winhttp:set_option unimplemented option 84
+0458:fixme:winhttp:set_option unimplemented option 84
+045c:fixme:winhttp:set_option unimplemented option 84
+0458:fixme:winhttp:set_option unimplemented option 84
+044c:fixme:winhttp:set_option unimplemented option 84
+02f0:fixme:wbemprox:client_security_SetBlanket 00006FFFFB470EC0, 00000000004F7AF0, 10, 0, (null), 3, 3, 0000000000000000, 0
+02f0:fixme:wbemprox:client_security_Release 00006FFFFB470EC0
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0458:fixme:winhttp:request_set_option unimplemented option 84
+0448:fixme:winhttp:request_set_option unimplemented option 84
+0450:fixme:winhttp:request_set_option unimplemented option 84
+045c:fixme:winhttp:request_set_option unimplemented option 84
+03a8:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+03a0:fixme:mmdevapi:control_UnregisterAudioSessionNotification (00000000006259A0)->(0000000066E687C8) - stub
+info:  Restoring display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+info:  Restoring display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+info:  Restoring display mode: 2560x1440@165
+info:  Setting display mode: 2560x1440@165
+0154:err:service:device_notify_proc failed to get event, error 1726
+Launch command: ['/home/sirdicholas/.config/heroic/tools/runtimes/umu/umu_run.py', '/home/sirdicholas/Games/Heroic/Fallout 4 GOTY/Fallout4Launcher.exe']
+All processes exited
+============= End of log =============

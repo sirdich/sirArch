@@ -1,0 +1,11 @@
+app_file="packages.txt"
+ignore_file="ignore.txt"
+readarray -t apps <"$app_file"
+readarray -t ignore < "$ignore_file"
+#echo ${apps[@]}
+yay -S ${apps[@]} --ignore ${ignore[@]} --noconfirm
+
+#sudo systemctl enable sddm
+#sudo systemctl enable lactd
+#sudo systemctl enable bluetooth
+#reboot

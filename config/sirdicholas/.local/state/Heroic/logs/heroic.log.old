@@ -1,0 +1,42 @@
+(11:04:58) [INFO]:    [Backend]:         System Information: CPU: 16x AMD Ryzen 7 9700X 8-Core Processor
+Memory: 67.01 GB (used: 5.79 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
+    IDs: D=7550 V=1002 SD=8811 SV=1eae
+    Driver: amdgpu
+OS: EndeavourOS 6.15.9-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.18.1 "Waterfall Beard" Jorul
+  Legendary: 0.20.37 Exit 17 (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.2.0
+  Nile: 1.1.2 Will A. Zeppeli
+(11:04:58) [INFO]:    [Connection]:      Connectivity: check-online
+(11:04:58) [INFO]:    [Connection]:      Pinging external endpoints
+(11:04:58) [WARNING]: [Backend]:         Protocol already registered.
+(11:04:58) [INFO]:    [Legendary]:       Running command: LEGENDARY_CONFIG_PATH=/home/sirdicholas/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(11:04:58) [DEBUG]:   [Gog]:             Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/gog.log"
+(11:04:58) [INFO]:    [Nile]:            Running command: NILE_CONFIG_PATH=/home/sirdicholas/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(11:04:58) [INFO]:    [Gog]:             Checking for existing gog manifests
+(11:04:58) [INFO]:    [Connection]:      Connectivity: online
+(11:04:58) [INFO]:    [Gog]:             Running command: GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json auth
+(11:04:58) [INFO]:    [Gog]:             Running command: GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json --version
+(11:04:58) [INFO]:    [Backend]:         User Not Found, removing it from Store
+(11:04:58) [INFO]:    [Gog]:             Running command: GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json auth
+(11:04:58) [INFO]:    [Gog]:             Running command: GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json auth
+(11:04:58) [DEBUG]:   [Gog]:             Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/gog.log"
+(11:04:58) [DEBUG]:   [Gog]:             Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/gog.log"
+(11:04:58) [DEBUG]:   [Gog]:             Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/gog.log"
+(11:04:58) [DEBUG]:   [Nile]:            Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/nile.log"
+(11:04:58) [DEBUG]:   [Legendary]:       Logging to file(s) "/home/sirdicholas/.local/state/Heroic/logs/runners/legendary.log"
+(11:04:58) [INFO]:    [Gog]:             Checking if login is valid
+(11:04:58) [WARNING]: refresh not implemented on Sideload Library Manager
+(11:04:58) [INFO]:    [Frontend]:        Refreshing undefined Library
+(11:04:58) [INFO]:    [Legendary]:       Refreshing library...
+(11:04:58) [INFO]:    [Gog]:             Running command: GOGDL_CONFIG_PATH=/home/sirdicholas/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/sirdicholas/.config/heroic/gog_store/auth.json auth
+(11:04:58) [INFO]:    [Backend]:         Frontend Ready

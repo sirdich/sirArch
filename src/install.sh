@@ -23,13 +23,7 @@ installYay() {
         echo "yay is already installed"
         #return
     else
-        if ! command_exists git; then
-            sudo pacman -S git --noconfirm
-        fi
-
-        if ! command_exists base-devel; then
-        sudo pacman -S base-devel --noconfirm
-        fi
+        sudo pacman -S git base-devel --noconfirm
         # Clone yay repository from GitHub
         git clone https://aur.archlinux.org/yay-bin.git /tmp/yay
         # Change directory to the cloned repository
@@ -76,16 +70,28 @@ pacmanConfig(){
 }
 #pacmanConfig
 
+installApps(){
 
-app_file="packages.txt"
-readarray -t apps <"$app_file"
-#echo ${apps[@]}
-yay -S ${apps[@]} --noconfirm
+    app_file="packages.txt"
+    readarray -t apps <"$app_file"
+    yay -S ${apps[@]} --noconfirm
+    sudo systemctl enable sddm
+    sudo systemctl enable lactd
+    sudo systemctl enable bluetooth
+    reboot
 
-#yay -S plasma-meta sddm mesa mesa-utils neovim fish ttf-meslo-nerd ttf-nerd-fonts-symbols --noconfirm
-#
-#sudo systemctl enable sddm
-#sudo systemctl enable lactd
-#sudo systemctl enable bluetooth
-#reboot
+}
+
+#installApps
+
+copyHome(){
+
+    cp -a ../.config/sirdicholas/ /home/
+    
+}
+
+copyHome
+
+# fstab
+# //10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0
 

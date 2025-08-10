@@ -1,0 +1,105 @@
+(14:45:31) [INFO]:    Launching "Satisfactory" (sideload)
+(14:45:31) [INFO]:    Native? false
+(14:45:31) [INFO]:    Installed in: /home/sirdicholas/Games/Heroic/Prefixes/default/Satisfactory/drive_c/Satisfactory 
+
+(14:45:31) [INFO]:    System Info: 
+CPU: 16x AMD Ryzen 7 9700X 8-Core Processor
+Memory: 67.01 GB (used: 19.01 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
+    IDs: D=7550 V=1002 SD=8811 SV=1eae
+    Driver: amdgpu
+OS: EndeavourOS 6.15.9-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.18.1 "Waterfall Beard" Jorul
+  Legendary: 0.20.37 Exit 17 (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.2.0
+  Nile: 1.1.2 Will A. Zeppeli
+
+(14:45:31) [INFO]:    Game Settings: {
+  "autoInstallDxvkNvapi": true,
+  "preferSystemLibs": false,
+  "enableEsync": true,
+  "enableFsync": true,
+  "enableWineWayland": false,
+  "enableHDR": false,
+  "enableWoW64": false,
+  "nvidiaPrime": false,
+  "enviromentOptions": [],
+  "wrapperOptions": [],
+  "showFps": false,
+  "useGameMode": false,
+  "battlEyeRuntime": true,
+  "eacRuntime": true,
+  "language": "",
+  "beforeLaunchScriptPath": "",
+  "afterLaunchScriptPath": "",
+  "verboseLogs": true,
+  "wineVersion": {
+    "bin": "/home/sirdicholas/.local/share/Steam/compatibilitytools.d/proton-cachyos-10.0-20250714-slr-x86_64_v3/proton",
+    "name": "Proton - proton-cachyos-10.0-20250714-slr-x86_64_v3",
+    "type": "proton"
+  },
+  "winePrefix": "/home/sirdicholas/Games/Heroic/Prefixes/default/Satisfactory"
+} 
+
+(14:45:32) [INFO]:    Winetricks packages: 
+
+Wine Command: /home/sirdicholas/.config/heroic/tools/runtimes/umu/umu_run.py /home/sirdicholas/Games/Heroic/Prefixes/default/Satisfactory/drive_c/Satisfactory/FactoryGameSteam.exe
+
+Game Log:
+INFO: umu-launcher version 1.2.9 (3.13.5 (main, Jun 21 2025, 09:35:00) [GCC 15.1.1 20250425])
+INFO: steamrt3 is up to date
+ProtonFixes[108934] WARN: [CONFIG]: Parent directory "/home/sirdicholas/.config/protonfixes" does not exist. Abort.
+ProtonFixes[108934] INFO: Running protonfixes on "cachyos-10.0-20250714-slr", build at 2025-07-16 22:08:00+00:00.
+ProtonFixes[108934] INFO: Running checks
+ProtonFixes[108934] INFO: All checks successful
+ProtonFixes[108934] WARN: Game title not found in CSV
+ProtonFixes[108934] INFO: Non-steam game UNKNOWN (umu-0)
+ProtonFixes[108934] INFO: No store specified, using UMU database
+ProtonFixes[108934] INFO: Using global defaults for UNKNOWN (umu-0)
+ProtonFixes[108934] INFO: Non-steam game UNKNOWN (umu-0)
+ProtonFixes[108934] INFO: No store specified, using UMU database
+ProtonFixes[108934] INFO: No global protonfix found for UNKNOWN (umu-0)
+Proton: /home/sirdicholas/Games/Heroic/Prefixes/default/Satisfactory/drive_c/Satisfactory/FactoryGameSteam.exe
+Proton: Executable a unix path, launching with /unix option.
+fsync: up and running.
+002c:fixme:winediag:loader_init wine-staging 10.0 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+00a0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+0034:fixme:service:scmdatabase_autostart_services Auto-start service L"winebth" failed to start: 1114
+00cc:fixme:wineusb:query_id Unhandled ID query type 0x5.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\X:\\.local\\share\\Steam\\compatibilitytools.d\\proton-cachyos-10.0-20250714-slr-x86_64_v3\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\X:\\.local\\share\\Steam\\compatibilitytools.d\\proton-cachyos-10.0-20250714-slr-x86_64_v3\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\X:\\.local\\share\\Steam\\compatibilitytools.d\\proton-cachyos-10.0-20250714-slr-x86_64_v3\\files\\share\\wine/../xalia/xalia.exe"
+00e0:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\X:\\.local\\share\\Steam\\compatibilitytools.d\\proton-cachyos-10.0-20250714-slr-x86_64_v3\\files\\share\\wine/../xalia/xalia.exe"
+0120:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0120:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0120:fixme:uiautomation:default_uia_provider_callback Default ProviderType_NonClientArea provider unimplemented.
+0120:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0120:fixme:uiautomation:base_hwnd_fragment_get_FragmentRoot 000000000081BB78, 000000000021F9D0: stub!
+0120:fixme:uiautomation:base_hwnd_fragment_GetEmbeddedFragmentRoots 000000000081BB78, 000000000021F9E0: stub!
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0128:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0128:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0128:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000841510, 10002, 000000000192F8A0: stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0128:fixme:combase:RoGetActivationFactory (L"Windows.Gaming.Input.RawGameController", {eb8d0792-e95a-4b19-afc7-0a59f8bf759e}, 00006FFFFD898960): semi-stub
+0128:fixme:input:raw_controller_2_get_DisplayName iface 0000000000B3D558, value 000000000011F400 stub!
+0128:fixme:input:raw_controller_2_get_DisplayName iface 0000000000B3D698, value 000000000011F400 stub!
+0134:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000008345A0, 10002, 000000000192F8A0: stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"Button"
+00d8:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 0000000000B9FE80
+0154:err:service:device_notify_proc failed to get event, error 1726
+============= End of log =============
