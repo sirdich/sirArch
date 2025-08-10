@@ -88,8 +88,8 @@ copyHome(){
 
     sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. /root/
 
-    file = "/etc/fstab"
-    entry = "//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
+    file="/etc/fstab"
+    entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
     echo $entry | sudo tee -a $file > /dev/null
     
     sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
