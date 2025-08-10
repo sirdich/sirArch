@@ -11,6 +11,7 @@ echo -ne
  |___/_|_|/_/    \_\_|  \___|_| |_|
 -----------------------------------
 "
+sleep 2
 # Function to check if a command exists
 installYay(){
 
@@ -95,7 +96,7 @@ editETC(){
 
 }
 
-installyYay
+installYay
 sleep 2
 editPacman
 sleep 2
