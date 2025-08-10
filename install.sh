@@ -77,8 +77,6 @@ editPacman(){
 
 installApps(){
 
-    
-
     readarray -t APPS < packages.txt
     #echo "Installing the following apps ${apps[@]}"
     #this doesn't work for some reason
