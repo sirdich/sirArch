@@ -34,11 +34,8 @@ installYay() {
         rm -rf /tmp/yay
     fi
 }
-#installYay
+installYay
 
-#add Chaotic AUR and enable multilib
-
-# Check if /etc/pacman.conf exists
 pacmanConfig(){
 
     PACMAN="/etc/pacman.conf"
@@ -68,7 +65,7 @@ pacmanConfig(){
     yay --noconfirm
 
 }
-#pacmanConfig
+pacmanConfig
 
 installApps(){
 
@@ -81,8 +78,7 @@ installApps(){
     reboot
 
 }
-
-#installApps
+installApps
 
 copyHome(){
 

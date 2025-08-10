@@ -17,6 +17,7 @@ ffmpegthumbs
 kdegraphics-thumbnailers
 xsettingsd
 plasma-workspace-wallpapers
+kde-wallpapers
 konsole
 mesa
 mesa-utils
