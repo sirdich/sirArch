@@ -78,7 +78,7 @@ sudo systemctl enable sddm
 sudo systemctl enable lactd
 sudo systemctl enable bluetooth
 
-sudo cp -Rf ./configs/system/. / && sudo cp -Rf ./configs/home/. ~/
+sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
 file="/etc/fstab"
 entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
 echo $entry | sudo tee -a $file > /dev/null
