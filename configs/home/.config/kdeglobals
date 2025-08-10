@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=116,92,180
+BackgroundAlternate=180,190,254
 BackgroundNormal=49, 50, 68
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=209,199,242
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -37,11 +37,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Complementary]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=146,110,228
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -51,11 +51,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Header]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=146,110,228
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -63,27 +63,27 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [Colors:Selection]
-BackgroundAlternate=111,86,173
-BackgroundNormal=111,86,173
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
-ForegroundInactive=255,255,255
-ForegroundLink=118,54,221
+BackgroundAlternate=180,190,254
+BackgroundNormal=180,190,254
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
+ForegroundInactive=24, 24, 37
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
-ForegroundNormal=255,255,255
+ForegroundNormal=17, 17, 27
 ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [Colors:Tooltip]
 BackgroundAlternate=27,25,35
 BackgroundNormal=30, 30, 46
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=209,199,242
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -93,11 +93,11 @@ ForegroundVisited=203, 166, 247
 [Colors:View]
 BackgroundAlternate=24, 24, 37
 BackgroundNormal=30, 30, 46
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=209,199,242
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -107,11 +107,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Window]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=146,110,228
-DecorationHover=146,110,228
-ForegroundActive=146,110,228
+DecorationFocus=180,190,254
+DecorationHover=49, 50, 68
+ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=146,110,228
+ForegroundLink=180,190,254
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -119,8 +119,8 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=1280,720
-History Items[$e]=file:$HOME/dev/sirArch,file:$HOME/dev,file:$HOME/dev/sirLinux,file:$HOME/Games/Bottles,file:$HOME/Games/Bottles,file:$HOME/Games/heroic,file:$HOME/Kvantum/themes/catppuccin-mocha-lavender
+DirSelectDialog Size=820,568
+History Items[$e]=file:$HOME/kvantum/themes/catppuccin-mocha-lavender
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -132,26 +132,6 @@ Theme=Papirus-Dark
 [KDE]
 LookAndFeelPackage=Catppuccin-Mocha-Lavender
 widgetStyle=kvantum
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=140
-View Style=DetailTree
 
 [WM]
 activeBackground=30,30,46

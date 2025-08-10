@@ -1,0 +1,3 @@
+[stream-properties]
+Input/Audio:application.id:org.kde.plasma-pa={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":[], "mute":false}
+Output/Audio:media.role:Notification={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000, "mute":false}

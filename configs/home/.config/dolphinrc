@@ -1,10 +1,7 @@
 [General]
 Version=202
-ViewPropsTimestamp=2025,8,8,8,31,45.796
+ViewPropsTimestamp=2025,8,10,15,46,54.803
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
-
-[Search]
-Location=Everywhere

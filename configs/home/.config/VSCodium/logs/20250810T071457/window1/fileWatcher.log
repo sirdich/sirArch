@@ -1,1 +1,0 @@
-2025-08-10 08:53:43.082 [warning] [File Watcher ('parcel')] started ignoring events due to too many file change events at once (incoming: 29980, most recent change: /home/sirdicholas/dev/sirArch/config/Home/.local/share/Steam). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).

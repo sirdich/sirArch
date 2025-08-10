@@ -1,0 +1,10 @@
+selected_gpu: '1AF4:1050-1AF4:1100-0000:00:01.0'
+plots_time_period: 60
+plots_per_row: 2
+gpus:
+  '1AF4:1050-1AF4:1100-0000:00:01.0':
+    plots:
+    - []
+    - []
+    - []
+    - []
