@@ -1,5 +1,4 @@
 #!/bin/bash
-echo -ne
 
 "
 -----------------------------------
@@ -11,7 +10,6 @@ echo -ne
  |___/_|_|/_/    \_\_|  \___|_| |_|
 -----------------------------------
 "
-sleep 2
 # Function to check if a command exists
 installYay(){
 
@@ -65,7 +63,7 @@ installApps(){
 
     yay
     app_file="packages.txt"
-    readarray -t apps <"$app_file"
+    readarray -t apps < $app_file
     #echo "Installing the following apps ${apps[@]}"
     #this doesn't work for some reason
     yay -S ${apps[@]} --noconfirm
@@ -80,7 +78,7 @@ installApps(){
 
 copyFiles(){
 
-    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
+    sudo cp -Rf configs/system/* / && sudo cp -Rf configs/home/* ~/
 
 }
 
@@ -97,12 +95,8 @@ editETC(){
 }
 
 installYay
-sleep 2
 editPacman
-sleep 2
 installApps
-sleep 2
 copyFiles
-sleep 2
 editETC
 sleep 2
