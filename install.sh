@@ -94,3 +94,14 @@ editETC(){
     sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
 
 }
+
+installyYay
+sleep 2
+editPacman
+sleep 2
+installApps
+sleep 2
+copyFiles
+sleep 2
+editETC
+sleep 2
