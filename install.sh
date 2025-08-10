@@ -1,16 +1,14 @@
 #!/bin/bash
 
-"
------------------------------------
-      _                      _     
-     (_)      /\            | |    
-  ___ _ _ __ /  \   _ __ ___| |__  
- / __| | '__/ /\ \ | '__/ __| '_ \ 
- \__ \ | | / ____ \| | | (__| | | |
- |___/_|_|/_/    \_\_|  \___|_| |_|
------------------------------------
-"
-# Function to check if a command exists
+echo -ne    "-----------------------------------
+                  _                      _     
+                 (_)      /\            | |    
+              ___ _ _ __ /  \   _ __ ___| |__  
+             / __| | '__/ /\ \ | '__/ __| '_ \ 
+             \__ \ | | / ____ \| | | (__| | | |
+             |___/_|_|/_/    \_\_|  \___|_| |_|
+            -----------------------------------"
+
 installYay(){
 
     sudo pacman -S git base-devel --noconfirm
@@ -62,11 +60,11 @@ editPacman(){
 installApps(){
 
     yay
-    app_file="packages.txt"
-    readarray -t apps < $app_file
+    FILE="packages.txt"
+    readarray -t APPS < $FILE
     #echo "Installing the following apps ${apps[@]}"
     #this doesn't work for some reason
-    yay -S ${apps[@]} --noconfirm
+    yay -S ${APPS[@]} --noconfirm
     #yay -S plasma-desktop plasma-disks plasma-firewall plasma-integration plasma-nm plasma-pa plasma-systemmonitor kscreen breeze bluedevil sddm sddm-kcm spectacle dolphin dolphin-plugins ffmpegthumbs kdegraphics-thumbnailers xsettingsd plasma-workspace-wallpapers kde-wallpapers konsole mesa mesa-utils lib32-mesa vulkan-radeon lib32-vulkan-radeon nvtop neovim fish ttf-meslo-nerd ttf-nerd-fonts-symbols ttf-noto-nerd noto-fonts noto-fonts-emoji noto-fonts-extra lact btop btop-theme-catppuccin rocm-smi-lib steam winetricks protontricks gamemode gamescope zen-browser-bin protonup-qt-bin proton-ge-custom-bin reflector-simple vscodium-bin auto-cpufreq beeper-v4-bin mangohud goverlay heroic-games-launcher-bin kvantum mpv mission-center timeshift papirus-folders papirus-icon-theme fastfetch checkupdates-with-aur jq cifs-utils sddm-catppuccin-git hunspell-en_us --noconfirm
     sudo systemctl enable sddm
     sudo systemctl enable lactd
@@ -78,7 +76,7 @@ installApps(){
 
 copyFiles(){
 
-    sudo cp -Rf configs/system/* / && sudo cp -Rf configs/home/* ~/
+    sudo cp -Rf configs/system/usr / && sudo cp -Rf configs/home/. /home/sirdicholas/
 
 }
 
@@ -98,5 +96,4 @@ installYay
 editPacman
 installApps
 copyFiles
-editETC
-sleep 2
+editETCcat
