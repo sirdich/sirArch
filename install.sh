@@ -12,17 +12,17 @@ echo -ne    "-----------------------------------
             "
 
 
-if [ ! -f "packages.txt" ]; then
+if [ ! -f ./packages.txt ]; then
     echo "File does not exist."
     exit 1
 fi
 
-if [ ! -f "config/system" ]; then
+if [ ! -f ./config/system ]; then
     echo "File does not exist."
     exit 1
 fi
 
-if [ ! -f "config/home" ]; then
+if [ ! -f ./config/home ]; then
     echo "File does not exist."
     exit 1
 fi
