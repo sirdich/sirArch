@@ -86,7 +86,7 @@ installApps(){
 
 copyHome(){
 
-    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. /root/
+    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
 
     file="/etc/fstab"
     entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
