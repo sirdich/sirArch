@@ -62,7 +62,7 @@ pacmanConfig(){
     echo "[chaotic-aur]" | sudo tee -a $PACMAN > /dev/null
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a $PACMAN > /dev/null
     
-    yay --noconfirm
+    yay
 
 }
 pacmanConfig
