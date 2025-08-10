@@ -34,7 +34,7 @@ installYay() {
         rm -rf /tmp/yay
     fi
 }
-installYay
+#installYay
 
 pacmanConfig(){
 
@@ -65,12 +65,13 @@ pacmanConfig(){
     yay --noconfirm
 
 }
-pacmanConfig
+#pacmanConfig
 
 installApps(){
 
     app_file="packages.txt"
     readarray -t apps <"$app_file"
+    echo "Installing the following apps ${apps[@]}"
     yay -S ${apps[@]} --noconfirm
     sudo systemctl enable sddm
     sudo systemctl enable lactd
@@ -88,6 +89,6 @@ copyHome(){
     
     sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
 }
-copyHome
+#copyHome
 
 
