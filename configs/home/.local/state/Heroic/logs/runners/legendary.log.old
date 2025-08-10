@@ -1,6 +1,0 @@
-(08:47:19) [INFO]:    Running command: LEGENDARY_CONFIG_PATH=/home/sirdicholas/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version 
-
-(08:47:19) [INFO]:    Running command: LEGENDARY_CONFIG_PATH=/home/sirdicholas/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary cleanup 
-
-legendary version "0.20.37", codename "Exit 17 (Heroic)"
-[cli] INFO: Cleanup complete! Removed 0.00 MiB.
