@@ -62,13 +62,14 @@ pacmanConfig(){
     echo "[chaotic-aur]" | sudo tee -a $PACMAN > /dev/null
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a $PACMAN > /dev/null
     
-    yay
+    yay --noconfirm
 
 }
 pacmanConfig
 
 installApps(){
 
+    yay
     app_file="packages.txt"
     readarray -t apps <"$app_file"
     echo "Installing the following apps ${apps[@]}"
