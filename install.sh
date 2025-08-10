@@ -11,6 +11,22 @@ echo -ne    "-----------------------------------
             
             "
 
+
+if [ ! -f "packages.txt" ]; then
+    echo "File does not exist."
+    exit 1
+fi
+
+if [ ! -f "config/system" ]; then
+    echo "File does not exist."
+    exit 1
+fi
+
+if [ ! -f "config/home" ]; then
+    echo "File does not exist."
+    exit 1
+fi
+
 installYay(){
 
     sudo pacman -S git base-devel --noconfirm
@@ -61,9 +77,9 @@ editPacman(){
 
 installApps(){
 
-    yay
-    FILE="packages.txt"
-    readarray -t APPS < $FILE
+    
+
+    readarray -t APPS < packages.txt
     #echo "Installing the following apps ${apps[@]}"
     #this doesn't work for some reason
     yay -S ${APPS[@]} --noconfirm
@@ -78,7 +94,7 @@ installApps(){
 
 copyFiles(){
 
-    sudo cp -Rf configs/system/usr / && sudo cp -Rf configs/home/. /home/sirdicholas/
+    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
 
 }
 
