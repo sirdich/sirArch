@@ -71,22 +71,19 @@ yay
 app_file="packages.txt"
 readarray -t apps <"$app_file"
 echo "Installing the following apps ${apps[@]}"
-yay -S ${apps[@]} --noconfirm
+#this doesn't work for some reason
+#yay -S ${apps[@]} --noconfirm
 yay -S plasma-desktop plasma-disks plasma-firewall plasma-integration plasma-nm plasma-pa plasma-systemmonitor kscreen breeze bluedevil sddm sddm-kcm spectacle dolphin dolphin-plugins ffmpegthumbs kdegraphics-thumbnailers xsettingsd plasma-workspace-wallpapers kde-wallpapers konsole mesa mesa-utils lib32-mesa vulkan-radeon lib32-vulkan-radeon nvtop neovim fish ttf-meslo-nerd ttf-nerd-fonts-symbols ttf-noto-nerd noto-fonts noto-fonts-emoji noto-fonts-extra lact btop btop-theme-catppuccin rocm-smi-lib steam winetricks protontricks gamemode gamescope zen-browser-bin protonup-qt-bin proton-ge-custom-bin reflector-simple vscodium-bin auto-cpufreq beeper-v4-bin mangohud goverlay heroic-games-launcher-bin kvantum mpv mission-center timeshift papirus-folders papirus-icon-theme fastfetch checkupdates-with-aur jq cifs-utils sddm-catppuccin-git --noconfirm
 sudo systemctl enable sddm
 sudo systemctl enable lactd
 sudo systemctl enable bluetooth
 
-copyHome(){
+sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
+file="/etc/fstab"
+entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
+echo $entry | sudo tee -a $file > /dev/null
 
-    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
+sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
 
-    file="/etc/fstab"
-    entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
-    echo $entry | sudo tee -a $file > /dev/null
-    
-    sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
-}
-copyHome
 
 

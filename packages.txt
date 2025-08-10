@@ -63,3 +63,4 @@ checkupdates-with-aur
 jq
 cifs-utils
 sddm-catppuccin-git
+hunspell-en_us
