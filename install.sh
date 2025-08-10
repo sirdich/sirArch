@@ -72,6 +72,7 @@ app_file="packages.txt"
 readarray -t apps <"$app_file"
 echo "Installing the following apps ${apps[@]}"
 yay -S ${apps[@]} --noconfirm
+yay -S plasma-desktop plasma-disks plasma-firewall plasma-integration plasma-nm plasma-pa plasma-systemmonitor kscreen breeze bluedevil sddm sddm-kcm spectacle dolphin dolphin-plugins ffmpegthumbs kdegraphics-thumbnailers xsettingsd plasma-workspace-wallpapers kde-wallpapers konsole mesa mesa-utils lib32-mesa vulkan-radeon lib32-vulkan-radeon nvtop neovim fish ttf-meslo-nerd ttf-nerd-fonts-symbols ttf-noto-nerd noto-fonts noto-fonts-emoji noto-fonts-extra lact btop btop-theme-catppuccin rocm-smi-lib steam winetricks protontricks gamemode gamescope zen-browser-bin protonup-qt-bin proton-ge-custom-bin reflector-simple vscodium-bin auto-cpufreq beeper-v4-bin mangohud goverlay heroic-games-launcher-bin kvantum mpv mission-center timeshift papirus-folders papirus-icon-theme fastfetch checkupdates-with-aur jq cifs-utils sddm-catppuccin-git --noconfirm
 sudo systemctl enable sddm
 sudo systemctl enable lactd
 sudo systemctl enable bluetooth
