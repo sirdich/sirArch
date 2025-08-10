@@ -75,8 +75,6 @@ installApps(){
     sudo systemctl enable sddm
     sudo systemctl enable lactd
     sudo systemctl enable bluetooth
-    reboot
-
 }
 installApps
 
