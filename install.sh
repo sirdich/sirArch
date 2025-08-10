@@ -67,18 +67,14 @@ pacmanConfig(){
 }
 pacmanConfig
 
-installApps(){
-
-    yay
-    app_file="packages.txt"
-    readarray -t apps <"$app_file"
-    echo "Installing the following apps ${apps[@]}"
-    yay -S ${apps[@]} --noconfirm
-    sudo systemctl enable sddm
-    sudo systemctl enable lactd
-    sudo systemctl enable bluetooth
-}
-installApps
+yay
+app_file="packages.txt"
+readarray -t apps <"$app_file"
+echo "Installing the following apps ${apps[@]}"
+yay -S ${apps[@]} --noconfirm
+sudo systemctl enable sddm
+sudo systemctl enable lactd
+sudo systemctl enable bluetooth
 
 copyHome(){
 
