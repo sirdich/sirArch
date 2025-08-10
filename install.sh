@@ -34,7 +34,7 @@ installYay() {
         rm -rf /tmp/yay
     fi
 }
-#installYay
+installYay
 
 pacmanConfig(){
 
@@ -65,7 +65,7 @@ pacmanConfig(){
     yay --noconfirm
 
 }
-#pacmanConfig
+pacmanConfig
 
 installApps(){
 
@@ -89,6 +89,6 @@ copyHome(){
     
     sudo sed -i 's|sirdicholas:/usr/bin/bash|sirdicholas:/usr/bin/fish|g' /etc/passwd
 }
-#copyHome
+copyHome
 
 
