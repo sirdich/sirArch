@@ -13,7 +13,7 @@ echo -ne
 
 DIR="${BASH_SOURCE[0]}"
 
-if [ ! -f ./packages.txt; then
+if [ ! -f ./packages.txt ]; then
     echo "File does not exist."
 
 fi
