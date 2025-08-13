@@ -13,21 +13,21 @@ echo -ne
 
 DIR="${BASH_SOURCE[0]}"
 
-if [ ! -f "$DIR"/packages.txt ]; then
+if [ ! -f ./packages.txt; then
     echo "File does not exist."
-    exit 1
+
 fi
 
 if [ ! -f ./config/system ]; then
     echo "File does not exist."
-    exit 1
+
 fi
 
 if [ ! -f ./config/home ]; then
     echo "File does not exist."
-    exit 1
-fi
 
+fi
+exit 1
 installYay(){
 
     sudo pacman -S git base-devel --noconfirm
