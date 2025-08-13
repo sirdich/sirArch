@@ -2,7 +2,8 @@
 
 echo -ne    
 
-"-----------------------------------
+"
+-----------------------------------
       _                      _     
      (_)      /\            | |    
   ___ _ _ __ /  \   _ __ ___| |__  
@@ -13,9 +14,9 @@ echo -ne
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+echo $SCRIPT_DIR
 
-
-if [ ! -f ./packages.txt ]; then
+if [ ! -f $SCRIPT_DIR/packages.txt ]; then
     echo "File does not exist."
 
 fi
