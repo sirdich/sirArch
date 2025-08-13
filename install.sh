@@ -12,21 +12,18 @@ echo -ne
  |___/_|_|/_/    \_\_|  \___|_| |_|
 -----------------------------------"
 
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-echo $SCRIPT_DIR
-
-if [ ! -f $SCRIPT_DIR/packages.txt ]; then
+if [ ! -f packages.txt ]; then
     echo "File does not exist."
 
 fi
 
-if [ ! -f ./config/system ]; then
+if [ ! -f config/system ]; then
     echo "File does not exist."
 
 fi
 
-if [ ! -f ./config/home ]; then
+if [ ! -f config/home ]; then
     echo "File does not exist."
 
 fi
