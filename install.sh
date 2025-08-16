@@ -15,6 +15,9 @@ echo -ne
 readarray -t APPS < packages.txt
 file="/etc/fstab"
 entry="//10.10.10.200/media /home/sirdicholas/media cifs _netdev,nofail,username=sirdicholas,password=g8e3r7a3 0 0"
+PACMAN="/etc/pacman.conf"
+MULT="[multilib]"
+CHAOTIC="[chaotic-aur]"
 
 
 installYay(){
@@ -35,10 +38,7 @@ installYay(){
 
 editPacman(){
 
-    PACMAN="/etc/pacman.conf"
-    MULT="[multilib]"
-    CHAOTIC="[chaotic-aur]"
-        # Backup the original pacman.conf
+    # Backup the original pacman.conf
     sudo cp $PACMAN /etc/pacman.conf.bak
     echo "Backed up original /etc/pacman.conf to /etc/pacman.conf.bak"
     
@@ -78,7 +78,7 @@ installApps(){
 
 copyFiles(){
 
-    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. ~/
+    sudo cp -Rf configs/system/* / && sudo cp -Rf configs/home/* ~/
 
 }
 
