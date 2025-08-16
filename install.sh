@@ -78,7 +78,7 @@ installApps(){
 
 copyFiles(){
 
-    sudo cp -Rf configs/system/* / && sudo cp -Rf configs/home/* ~/
+    sudo cp -Rf configs/system/. / && sudo cp -Rf configs/home/. /home/sirdicholas/
 
 }
 
